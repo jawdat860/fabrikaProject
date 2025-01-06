@@ -1,0 +1,192 @@
+.genn-CustomCabinet-imageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.genn-CustomCabinet-TextContainer {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+.genn-CustomCabinet {
+    position: relative;
+    padding: 20px 0;
+    background: #EEECEA;
+}
+
+
+
+.genn-CustomCabinet-TextContainer-title {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'sf-pro-semi';
+    line-height: normal;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+
+.genn-CustomCabinet-TextContainer-des {
+    text-align: center;
+    font-family: sf-pro;
+    font-size: 24px;
+    width: 232px;
+    opacity: 0.7;
+    background: linear-gradient(90deg, #000 -10.76%, #000 104.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.genn-CustomCabinet-TextContainer-buttonDes {
+    display: none;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+ 
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .genn-CustomCabinet {
+        padding: 20px 0;
+        background: #EEECEA;
+        padding-top: 0;
+    }
+    
+    .genn-CustomCabinet-TextContainer-buttonDes {
+        display: block;
+        /* text-align: center; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    
+    button.genn-CustomCabinet-TextContainer-button.genn-Baner-button-v1 {
+        color: #000;
+        font-size: 12px;
+        font-family: 'INTER';
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 19.5px;
+        background: #FFF;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+ 
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-CustomCabinet {
+        padding: 20px 0;
+        background: #EEECEA;
+        padding-top: 0;
+    }
+    
+    .genn-CustomCabinet-TextContainer-buttonDes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 106px;
+    }
+    
+    button.genn-CustomCabinet-TextContainer-button.genn-Baner-button-v1 {
+        color: #000;
+        font-size: 12px;
+        font-family: 'INTER';
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 19.5px;
+        background: #FFF;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+    .genn-CustomCabinet-TextContainer-title {
+        width: 400px;
+    }
+    
+    .genn-CustomCabinet-TextContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-CustomCabinet {
+        padding: 20px 0;
+        background: #EEECEA;
+        padding-top: 0;
+    }
+    
+    .genn-CustomCabinet-TextContainer-buttonDes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 106px;
+    }
+    
+    button.genn-CustomCabinet-TextContainer-button.genn-Baner-button-v1 {
+        color: #000;
+        font-size: 12px;
+        font-family: 'INTER';
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 19.5px;
+        background: #FFF;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+    .genn-CustomCabinet-TextContainer-title {
+        width: 300px;
+    }
+    
+    .genn-CustomCabinet-TextContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.genn-shkaf .genn-templateCardV1-photo{
+    display: none;
+}
+@media  (max-width: 375px) {
+    .genn-CustomCabinet {
+        padding: 20px 0;
+        background: #EEECEA;
+        padding-top: 0;
+    }
+    
+    .genn-CustomCabinet-TextContainer-buttonDes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 106px;
+    }
+    
+    button.genn-CustomCabinet-TextContainer-button.genn-Baner-button-v1 {
+        color: #000;
+        font-size: 12px;
+        font-family: 'INTER';
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 19.5px;
+        background: #FFF;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+    .genn-CustomCabinet-TextContainer-title {
+        width: 300px;
+    }
+    
+    .genn-CustomCabinet-TextContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

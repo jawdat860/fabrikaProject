@@ -1,0 +1,26 @@
+
+.TitleModel-button{
+ margin-top: 30px;
+ border-radius: 19.5px;
+ background: linear-gradient(90deg, #FF5A00 0%, rgba(240, 137, 102, 0.96) 47.32%, #8AA5D3 100%);
+ border-radius: 20px;
+ color: white;
+ box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+ padding: 10px;
+}
+.genn-TitleModel-head{
+    color: #000;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:  0  17px 0;
+    text-align: center;
+}
+.genn-TitleModel{
+padding: 30px 30px  0px 30px;
+
+}

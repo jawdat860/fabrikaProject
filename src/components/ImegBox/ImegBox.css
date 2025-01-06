@@ -1,0 +1,69 @@
+.genn-ImegBox-image {
+  width: 100%;
+}
+.genn-ImegBox-container-button {
+  font-family: Inter;
+  position: absolute;
+  bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.genn-ImegBox-button {
+  display: flex;
+  height: 39px;
+  padding: 12px 35px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 19.5px;
+  background: #627867;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (min-width: 1440px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  div#genn-ImegBox {
+    min-height: 226px;
+  }
+
+  .genn-ImegBox-container-button {
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+  div#genn-ImegBox {
+    min-height: 226px;
+  }
+
+  .genn-ImegBox-container-button {
+    bottom: 10px;
+  }
+}
+
+@media  (max-width: 374px) {
+  div#genn-ImegBox {
+    min-height: 226px;
+  }
+
+  .genn-ImegBox-container-button {
+    bottom: 10px;
+  }
+}

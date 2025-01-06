@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: it-genn.ru -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500px" height="500px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 19.821 19.821"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.it-genn.ru">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:0.5;stroke-miterlimit:22.9256}
+    .str1 {stroke:black;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil0 {fill:none;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="genn-art_x0020_1">
+  <metadata id="it-genn-ru-Layer"/>
+  <g id="_2477158220400">
+   <g>
+    <path class="fil0 str0" d="M9.927 4.872l0 9.341 7.634 0c0.289,0 0.524,0.231 0.524,0.516l0 2.792c0,0.285 -0.235,0.516 -0.524,0.516l-15.296 0c-0.29,0 -0.524,-0.231 -0.524,-0.516 0,-5.068 -0.05,-10.155 0.007,-15.222 0.003,-0.284 0.234,-0.515 0.523,-0.515l15.305 0c0.29,0 0.524,0.231 0.524,0.515l0 2.058c0,0.284 -0.235,0.515 -0.524,0.515l-7.649 0z"/>
+    <line class="fil0 str1" x1="5.876" y1="1.784" x2="5.876" y2= "17.297" />
+    <line class="fil0 str1" x1="6.709" y1="11.164" x2="6.709" y2= "12.504" />
+    <line class="fil0 str1" x1="14.519" y1="14.885" x2="13.531" y2= "14.885" />
+    <line class="fil0 str1" x1="4.988" y1="11.164" x2="4.988" y2= "12.531" />
+    <line class="fil0 str1" x1="9.927" y1="4.872" x2="1.748" y2= "4.872" />
+    <path class="fil0 str0" d="M14.977 13.091l0 -4.287c0,-0.289 0.235,-0.524 0.524,-0.524l0.145 0c0.29,0 0.524,0.235 0.524,0.524l0 4.287 -1.193 0 0 0 0 0z"/>
+    <path class="fil0 str1" d="M13.483 7.342c0,0.168 0.122,0.306 0.271,0.306 0.149,0 0.271,-0.138 0.271,-0.306l0 -0.587"/>
+    <line class="fil1 str0" x1="1.741" y1="17.297" x2="18.085" y2= "17.297" />
+    <line class="fil1 str0" x1="9.927" y1="4.872" x2="9.927" y2= "1.784" />
+    <line class="fil1 str0" x1="9.927" y1="14.213" x2="9.927" y2= "17.297" />
+    <path class="fil0 str1" d="M11.645 7.342c0,0.168 0.122,0.306 0.271,0.306 0.149,0 0.271,-0.138 0.271,-0.306l0 -0.587"/>
+    <path class="fil0 str1" d="M15.303 7.342c0,0.168 0.122,0.306 0.271,0.306 0.148,0 0.271,-0.138 0.271,-0.306l-0.001 -0.587"/>
+    <line class="fil1 str0" x1="15.574" y1="7.648" x2="15.574" y2= "8.28" />
+    <path class="fil0 str1" d="M5.876 4.103l0.005 0c0.081,0 0.148,-0.067 0.148,-0.148l0 -1.254c0,-0.081 -0.067,-0.148 -0.148,-0.148l-0.005 0"/>
+    <path class="fil0 str1" d="M5.876 4.103l-0.005 0c-0.082,0 -0.148,-0.067 -0.148,-0.148l0 -1.254c0,-0.081 0.066,-0.148 0.148,-0.148l0.005 0"/>
+   </g>
+   <rect class="fil1" width="19.821" height="19.821"/>
+  </g>
+ </g>
+</svg>

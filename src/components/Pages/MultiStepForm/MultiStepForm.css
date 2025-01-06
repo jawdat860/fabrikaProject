@@ -1,0 +1,322 @@
+textarea {
+    width: 100%; 
+    padding: 15px; 
+    border: 1px solid #000; 
+    border-radius: 20px; 
+    min-height: 140px;
+    box-sizing: border-box; 
+    font-size: 18px; 
+    outline: none; 
+    resize: vertical;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+textarea:focus {
+    border-color: #ff5a00; 
+        box-shadow: 0 0 5px rgb(255 90 0); 
+}
+
+textarea:focus-visible {
+    border-color: #ff5a00; 
+        box-shadow: 0 0 5px rgb(255 90 0); 
+}
+input:focus-visible {
+    border-color: #ff5a00 !important; 
+        box-shadow: 0 0 5px rgb(255 90 0); 
+        outline: none;
+}
+
+input::placeholder {
+    position: relative;
+    display: inline-block;
+    font-family: monospace; /* Use monospace to ensure the placeholder text is spaced evenly */
+  }
+  
+  /* Apply blinking animation to the cursor (|) */
+  input::placeholder {
+    animation: blink 0.8s step-end infinite; /* Blinking effect */
+    
+  }
+  
+  /* Create the blink animation for the cursor */
+  @keyframes blink {
+    50% {
+        color: #ff5a00;
+      opacity: 0; /* Hide cursor at 50% of the time */
+    }
+  }
+  .multform  input[type="text"] {
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: #000;
+}
+
+.multform  .product-option {
+    min-height: 50px;
+}
+.multform  .ModelWindow-6-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.multform  p.error-message {
+    color: red;
+    padding: 10px;
+}
+.multform  .ModelWindow-44 {
+    gap: 65px;
+}
+.multform  button.ModelWindow-button-5 {
+    width: 50px;
+    height: 50px;
+    transform: rotate(180deg);
+}
+.multform  button.ModelWindow-6 {
+    display: flex;
+    width: 162px;
+    height: 35px;
+    padding: 11px 27px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 19.5px;
+    border: 1px solid #FFF;
+    background: #FF5A00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.multform  button.ModelWindow-button-6 {
+    width: 50px;
+    height: 50px;
+   
+}
+
+.multform  .ModelWindow-44-buttonContainer {
+    display: flex;
+    gap: 26px;
+    width: 400p;
+    /* flex: 71%; */
+}
+
+.multform  button.ModelWindow-button-5 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.multform  .product-option-other {
+    height: 50px;
+}
+.multform  .ModelWindow-44 {
+    display: flex;
+     margin-top: 30px;
+}
+
+.multform  .progress-bar-container {
+    align-self: end;
+}
+
+.multform  h2.ModelWindow-1 {
+    max-width: 293px;
+}
+
+.multform  .product-option img {
+    width: 32px;
+    height: 32px;
+}
+
+.multform  .product-option {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    padding: 8px 29px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #000;
+    margin: 0 !important;
+    color: #000;
+}
+
+.multform  .product-option-text {
+ 
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+/* Add this to your MultiStepForm.css */
+.multform  .progress-bar-container {
+    position: relative;
+    height: 10px; /* Height of the tape */
+    width: 100%;
+    background-color: #f1f1f1; /* Light background for the tape */
+    border-radius: 5px;
+
+  }
+  
+  .multform   .progress-tape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #ff5a00; /* Green color for the progress tape */
+    border-radius: 5px;
+    transition: width 0.3s ease;
+  }
+  
+
+/* ModelWindow.css */
+.multform  .product-option {
+   
+    background-color: #fff;
+   
+    cursor: pointer;
+   
+  
+    
+    transition: background-color 0.3s ease;
+  }
+  
+  .multform  .product-option.selected {
+    background-color: #000 ;/* Green for selected items */
+    color: white !important;
+  }
+  
+ 
+  
+
+  .multform  .ModelWindow-4 {
+    flex-direction: column;
+}
+
+.multform  .conteniner.gemm-ModelWindow {
+    padding: 72px 61px 20px 83px;
+}
+.multform  h2.ModelWindow-1{
+    margin-bottom: 40px;
+}
+ .multform .conteniner {
+    width: 456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.multform.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.multform .conteniner {
+    background: #fff;
+    position: absolute;
+    z-index: 1100;
+    
+}
+.multform  .gemm-ModelWindow .conteniner {
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 40px;
+}
+.multform  .gemm-ModelWinow .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 38px;
+    height: 38px;
+   
+    border-radius: 50%;
+   
+}
+
+.multform  p.error-message {
+    color: red;
+    padding: 10px;
+}
+
+h2.ModelWindow-1 {
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: -1px;
+    max-width: 272px;
+}
+
+
+
+/* Тестовые стили начало */
+.ModelWindow-1 {
+    font-size: 24px; 
+    font-family: 'Inter'; 
+    font-weight: 600; 
+    text-align: center;
+    line-height: 1; 
+    margin-bottom: 20px;
+}
+.ModelWindow-2 {
+    text-align: center;
+    line-height: 1.1;
+    font-size: 14px;
+}
+
+.ModelWindow-3 img {max-width: 120px;}
+
+.ModelWindow-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.ModelWindow-4 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+
+@media (max-width:768px) {
+    #ModelWindow .conteniner {
+        width: 351px !important; }
+        .conteniner.gemm-ModelWindow {
+            min-height: 20vh;
+        }
+    }
+
+
+
+@media (max-width:600px) {
+    #ModelWindow .conteniner {
+        padding: 24px;
+        padding-top: 57px;
+        margin: 0 15px;
+    }
+}
+
+
+/* Тестовые стили окончание */

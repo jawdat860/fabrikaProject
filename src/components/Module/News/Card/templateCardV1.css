@@ -1,0 +1,242 @@
+h4.genn-templateCardV1-card-title-head {
+    height: 48px;
+}
+
+
+.genn-templateCardV1-card{
+    border-radius: 30px 30px 0px 0px;
+}
+.genn-templateCardV1-CardsContainer{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.genn-templateCardV1-card-imageContainer {
+
+    border-radius: 30px 30px 0px 0px;
+}
+
+
+.genn-templateCardV1-photo {
+    background: #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.genn-templateCardV1-photo-image {
+    position: relative;
+}
+.genn-templateCardV1-photo-title {
+    position: absolute;
+    top: 0;
+    color: #EEECEA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 300px;
+    z-index: 1;
+}
+.genn-templateCardV1-photo-button {
+    position: absolute;
+    bottom: 40px;
+}
+.genn-KitchenCards {
+    padding-top: 43px;
+    background: #000;
+    overflow: hidden;
+}
+
+.genn-templateCardV1-photo-title span {
+    color: #E97651;
+}
+.genn-templateCardV1-photo-image::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(-131deg, #000 66.53%, #090907 82.33%, #232220 98.52%);
+    right: -100%;
+    top: 0;
+}
+.genn-templateCardV1-photo-image::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(131deg, #000 66.53%, #090907 82.33%, #232220 98.52%);
+    left: -100%;
+}
+.genn-templateCardV1-CardsCntainer {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.genn-templateCardV1-card-imageContainer {
+   background-position: center center;
+    background-size: cover;
+}
+
+img.genn-templateCardV1-card-image {height: 227px;}
+
+.genn-templateCardV1-card-title {
+    border-radius: 0px 0px 30px 30px;
+    background: #0f0f0f;
+    min-height: 330px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.genn-templateCardV1-card {
+    width: 100%;
+}
+
+.genn-templateCardV1-card-title-head {
+    color: #EEECEA;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #EEECEA;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p.genn-templateCardV1-card-title-des {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    h4.genn-templateCardV1-card-title-head {
+        height: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-KitchenCards{
+        padding: 0;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-templateCardV1-photo {
+        padding: 34px;
+        padding-top: 0;
+    }
+    .genn-templateCardV1-CardsContainer{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .genn-templateCardV1-photo-button {
+        bottom: 53px;
+    }
+    
+    .genn-templateCardV1-photo-image {
+        border-radius: 10px;
+        overflow: hidden;
+    }.genn-templateCardV1-photo-image::after{
+  display: none;
+    }
+    .genn-templateCardV1-photo-image::before{
+      display: none;
+    }
+    .genn-templateCardV1-photo-title {
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-templateCardV1-CardsContainer{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .genn-templateCardV1-photo {
+        padding: 16px;
+        padding-top: 0;
+    }
+    .genn-KitchenCards{
+        padding-top: 39px;
+    }
+    
+    .genn-templateCardV1-photo-image {
+        border-radius: 10px;
+        overflow: hidden;
+    }.genn-templateCardV1-photo-image::after{
+  display: none;
+    }
+    .genn-templateCardV1-photo-image::before{
+      display: none;
+    }
+    .genn-templateCardV1-photo-title {
+        font-weight: 600;
+    }
+   
+    .genn-templateCardV1-photo-title {
+        top: 10px;
+    }
+    
+    .genn-templateCardV1-photo-button {
+        bottom: 31px;
+    }
+
+}
+
+@media  (max-width: 374px) {
+    .genn-templateCardV1-CardsContainer{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+.genn-KitchenCards{
+    padding-top: 39px;
+}
+    .genn-templateCardV1-photo {
+        padding: 9px;
+        padding-top: 0;
+    }
+ 
+    
+    .genn-templateCardV1-photo-image {
+        border-radius: 10px;
+        overflow: hidden;
+    }.genn-templateCardV1-photo-image::after{
+  display: none;
+    }
+    .genn-templateCardV1-photo-image::before{
+      display: none;
+    }
+    .genn-templateCardV1-photo-title {
+        font-weight: 600;
+    }
+   
+    .genn-templateCardV1-photo-title {
+        top: 10px;
+    }
+    
+    .genn-templateCardV1-photo-button {
+        bottom: 31px;
+    }
+
+}
+.genn-templateCardV1-text-first {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    /* width: 529px; */
+}

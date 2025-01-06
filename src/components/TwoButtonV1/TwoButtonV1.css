@@ -1,0 +1,44 @@
+.genn-TwoButtonV1-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--bannerSlider-bg);
+}
+
+.genn-TwoButtonV1-price {
+    display: flex;
+    padding: 11px 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 19.5px;
+    border: 1px solid var(--button-1-border);
+    background: var(--button-1-bg);
+    color: var(--button-1-text);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    height: 40px;
+}
+
+.genn-TwoButtonV1-phone {
+    color: var(--button-4-text);
+    -webkit-text-stroke-color: var(--button-4-text);
+    font-family: Inder;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    border-radius: 19.5px;
+    background: var(--button-4-bg);
+    display: flex;
+    padding: 7px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}

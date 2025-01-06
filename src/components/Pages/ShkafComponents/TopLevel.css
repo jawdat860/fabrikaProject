@@ -1,0 +1,468 @@
+.genn-TopLevel {
+    display: flex;
+}
+
+.genn-TopLevel-imag-container {
+    flex: 47%;
+}
+
+.genn-TopLevel-Text {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.genn-TopLevel-Text-title {
+    padding-top: 36px;
+    padding-left: 33px;
+    color: #000;
+    font-size: 30px;
+    font-family: 'sf-pro-semi';
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+.genn-TopLevel-Text-desContainer {
+    padding-left: 50px;
+    width: 359px;
+}
+
+.genn-TopLevel-Text-des1 {
+    color: #2E2E30;
+    font-family: 'sf-pro-semi';
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 23px;
+}
+
+.genn-TopLevel-Text-des2 {
+    color: #86868B;
+    font-family: 'sf-pro-semi';
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.genn-TopLevel-Text-buttonContainer {
+    /* margin-top: 117px; */
+    padding-left: 50px;
+    display: flex;
+    gap: 18px;
+    justify-self: end;
+    flex: 1;
+    align-items: end;
+    padding-bottom: 40px;
+}
+
+button.genn-TopLevel-Text-button1 {
+    width: 172px;
+    height: 39px;
+    border-radius: 19.5px;
+    border: 2px solid #C3705F;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button.genn-TopLevel-Text-button2 {
+    width: 153px;
+    height: 39px;
+     
+;
+    border-radius: 19.5px;
+    background: linear-gradient(90deg, #C3705F 0%, #8AA5D3 100%);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.genn-TopLevel-Text {
+    background: #fff;
+}
+
+.genn-TopLevel {
+    padding: 10px 0;
+    background: #EEECEA;
+}
+.genn-TopLevel-title-sm {
+    display: none;
+}
+
+.genn-TopLevel-Text-button3 {
+    display: none;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+ 
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .genn-TopLevel-Text-title {
+        
+        font-size: 24px;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+ 
+.genn-TopLevel-title-sm {
+    display: block;
+}
+
+.genn-TopLevel-Text-button3 {
+    display: block;
+}
+
+
+
+.genn-TopLevel {
+    flex-direction: column;
+    background: #fff;
+}
+
+.genn-TopLevel-Text-title {
+    display: none;
+}
+
+button.genn-TopLevel-Text-button2 {
+    display: none;
+}
+
+button.genn-TopLevel-Text-button1 {
+    display: none;
+}
+
+.genn-TopLevel-title-sm {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'sf-pro-semi';
+    line-height: normal;
+    font-style: normal;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.genn-TopLevel-Text {
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.genn-TopLevel-Text-desContainer {
+    padding-left: 0;
+    width: 535px;
+    text-align: center;
+}
+
+button.genn-TopLevel-Text-button3 {
+    width: 153px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 19.5px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #C3705F 0%, #8AA5D3 100%);
+    margin-top: 40px;
+}
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-TopLevel-Text {
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+
+}
+
+.genn-TopLevel-Text-desContainer {
+    width: 100%;
+    text-align: start;
+    width: 330px;
+    padding-left: 22px;
+}
+
+.genn-Perfectlayou-title div {
+    width: 153px;
+}
+
+.genn-Perfectlayou-title {
+    display: flex;
+    justify-content: center;
+}
+
+.genn-TopLevel-Text-buttonContainer {
+    padding-left: 0;
+    justify-content: center;
+    width: 100%;
+}
+ 
+
+
+
+.genn-TopLevel-title-sm {
+    display: block;
+}
+
+.genn-TopLevel-Text-button3 {
+    display: block;
+}
+
+
+
+.genn-TopLevel {
+    flex-direction: column;
+    background: #fff;
+}
+
+.genn-TopLevel-Text-title {
+    display: none;
+}
+
+button.genn-TopLevel-Text-button2 {
+    display: none;
+}
+
+button.genn-TopLevel-Text-button1 {
+    display: none;
+}
+
+.genn-TopLevel-title-sm {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'sf-pro-semi';
+    line-height: normal;
+    font-style: normal;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.genn-TopLevel-Text {
+    
+    padding-top: 40px;
+}
+
+
+
+button.genn-TopLevel-Text-button3 {
+    width: 153px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 19.5px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #C3705F 0%, #8AA5D3 100%);
+    margin-top: 40px;
+}
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+
+    .genn-TopLevel-Text {
+        text-align: start;
+        align-items: start;
+        justify-content: start;
+    
+    }
+    
+    .genn-TopLevel-Text-desContainer {
+        width: 100%;
+        text-align: start;
+        width: 330px;
+        padding-left: 22px;
+    }
+    
+    .genn-Perfectlayou-title div {
+        width: 153px;
+    }
+    
+    .genn-Perfectlayou-title {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .genn-TopLevel-Text-buttonContainer {
+        padding-left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+     
+    
+    
+    
+    .genn-TopLevel-title-sm {
+        display: block;
+    }
+    
+    .genn-TopLevel-Text-button3 {
+        display: block;
+    }
+    
+    
+    
+    .genn-TopLevel {
+        flex-direction: column;
+        background: #fff;
+    }
+    
+    .genn-TopLevel-Text-title {
+        display: none;
+    }
+    
+    button.genn-TopLevel-Text-button2 {
+        display: none;
+    }
+    
+    button.genn-TopLevel-Text-button1 {
+        display: none;
+    }
+    
+    .genn-TopLevel-title-sm {
+        color: #000;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'sf-pro-semi';
+        line-height: normal;
+        font-style: normal;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .genn-TopLevel-Text {
+        
+        padding-top: 40px;
+    }
+    
+    
+    
+    button.genn-TopLevel-Text-button3 {
+        width: 153px;
+        height: 39px;
+        flex-shrink: 0;
+        border-radius: 19.5px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background: linear-gradient(90deg, #C3705F 0%, #8AA5D3 100%);
+        margin-top: 40px;
+    }
+}
+
+@media  (max-width: 375px) {
+   
+    .genn-TopLevel-Text {
+        text-align: start;
+        align-items: start;
+        justify-content: start;
+    
+    }
+    
+    .genn-TopLevel-Text-desContainer {
+        width: 100%;
+        text-align: start;
+        width: 330px;
+        padding-left: 22px;
+    }
+    
+    .genn-Perfectlayou-title div {
+        width: 153px;
+    }
+    
+    .genn-Perfectlayou-title {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .genn-TopLevel-Text-buttonContainer {
+        padding-left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+     
+    
+    
+    
+    .genn-TopLevel-title-sm {
+        display: block;
+    }
+    
+    .genn-TopLevel-Text-button3 {
+        display: block;
+    }
+    
+    
+    
+    .genn-TopLevel {
+        flex-direction: column;
+        background: #fff;
+    }
+    
+    .genn-TopLevel-Text-title {
+        display: none;
+    }
+    
+    button.genn-TopLevel-Text-button2 {
+        display: none;
+    }
+    
+    button.genn-TopLevel-Text-button1 {
+        display: none;
+    }
+    
+    .genn-TopLevel-title-sm {
+        color: #000;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'sf-pro-semi';
+        line-height: normal;
+        font-style: normal;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .genn-TopLevel-Text {
+        
+        padding-top: 40px;
+    }
+    
+    
+    
+    button.genn-TopLevel-Text-button3 {
+        width: 153px;
+        height: 39px;
+        flex-shrink: 0;
+        border-radius: 19.5px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background: linear-gradient(90deg, #C3705F 0%, #8AA5D3 100%);
+        margin-top: 40px;
+    }
+}

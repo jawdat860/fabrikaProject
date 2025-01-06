@@ -1,0 +1,60 @@
+.genn-autoplay-toggle {
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.genn-autoplay-toggle:hover {
+  background-color: #0056b3;
+}
+.genn-templateCardV1-CardsContainer {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.genn-templateCardV1-controls {
+position: relative;
+}
+
+
+.grnn-prev-next .prev {
+right: 76px;
+left:auto;
+}
+
+.grnn-prev-next .next {
+right: 15px;
+}
+.genn-templateCardV1-controls{
+display: none;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+
+
+}
+
+@media  (max-width: 374px) {
+
+}
+

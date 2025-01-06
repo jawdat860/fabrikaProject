@@ -1,0 +1,91 @@
+.kitchenBaner {
+  background: #F5F5F7;
+  padding: 21px 60px 35px 60px;
+}
+
+.genn-kitchenBaner-title {
+  width: 334px;
+  font-size: 12px;
+  font-family: 'Inter';
+  font-weight: 400;
+  color: black;
+  line-height: normal;
+}
+
+.genn-kitchenBaner-des {
+  font-size: 14px;
+  font-family: 'Inter';
+  color: #ff5A00;
+  padding-top: 6px;
+}
+
+
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .kitchenBanerBlock video{
+      object-fit: cover;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .kitchenBaner {
+
+      padding: 16px 23px 22px 23px  !important;
+  }
+  
+  .genn-kitchenBaner-title {
+  
+  }
+  
+  .genn-kitchenBaner-des {
+     text-align: center;
+  }
+  .kitchenBaner video{
+      object-fit: contain;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+  .kitchenBaner .genn-Baner-video  video{
+      object-fit: cover !important;
+  }
+  .kitchenBaner {
+     padding: 10px 20px 22px 20px !important;
+  }
+  
+  .genn-kitchenBaner-title {
+    
+  }
+  
+  .genn-kitchenBaner-des {
+    text-align: center;
+  }
+}
+
+@media  (max-width: 374px) {
+
+  .kitchenBanerBlock .genn-Baner-video video{
+      object-fit: cover !important;
+  }
+  .kitchenBaner {
+     padding: 10px 20px 22px 20px !important;
+  }
+  
+  .genn-kitchenBaner-title {
+    font-size: 11px;
+  }
+  
+  .genn-kitchenBaner-des {
+    text-align: center;
+  }
+ 
+}

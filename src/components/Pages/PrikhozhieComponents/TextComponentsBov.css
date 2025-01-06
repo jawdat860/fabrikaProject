@@ -1,0 +1,62 @@
+.PrikhozhieTextBov {
+    background: #000;
+    color: white;
+    padding: 25px;
+}
+
+
+
+.PrikhozhieTextBov .genn-kitchenBaner-title {
+    color: #fff;
+    opacity: 0.75;
+}
+.PrikhozhieTextBov {
+    display: none !important;
+    
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .PrikhozhieTextBov {
+        display: none !important;
+        
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .PrikhozhieTextBov {
+        display: block !important;
+        
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+
+    .PrikhozhieTextBov {
+        display: block !important;
+        
+    }
+    .PrikhozhieTextBov {
+        padding: 10px 20px 20px 22px;
+    }
+    
+
+}
+
+@media  (max-width: 374px) {
+
+    .PrikhozhieTextBov {
+        display: block !important;
+        
+    }
+    .PrikhozhieTextBov {
+        padding: 10px 20px 20px 22px;
+    }
+    
+}

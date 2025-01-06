@@ -1,0 +1,381 @@
+.genn-CardVideoComponent-controls {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.genn-CardVideoComponent-play {
+    width: 35px;
+    height: 35px;
+}
+
+.CardVideoComponent-prev {
+    width: 35px;
+    height: 35px;
+    transform: rotate(180deg);
+}
+
+.genn-CardVideoComponent-prev-next {
+    display: flex;
+    gap: 15px;
+}
+.CardVideoComponent-next {
+    width: 35px;
+    height: 35px;
+}
+.genn-CardVideoComponent-CardsContainer {
+    overflow: hidden;
+}
+.genn-CardVideoComponent-imageCard.mobile{
+    display: none;
+}
+.genn-cardVideo-main-1 {
+    width: 25%;
+}
+
+.genn-cardVideo-main-2 {
+    width: 21%;
+}
+.genn-CardVideoComponent-CardsContainer .genn-Baner-video video {
+    min-height:100%
+}
+.genn-CardVideo {
+    height: 100%;
+}
+
+.genn-CardVideoComponent-imageCard {
+    width: 47%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.genn-CardVideoComponent {
+    justify-content: space-between;
+}
+.genn-CardVideoComponent {
+    display: flex;
+    gap: 40px;
+    padding: 50px 39px 50px 39px;
+    background: #111111;
+}
+
+.genn-CardVideoComponent-imageCard {
+    width: 47%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.genn-CardVideoComponent-imageCard-textContainer {
+    flex: 1;
+}
+
+.genn-CardVideoComponent-imageCard-textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    background: #FFF;
+}
+
+.genn-CardVideoComponent-imageCard-title {
+    color: #000;
+    text-align: center;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.genn-CardVideoComponent-imageCard-des {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.genn-CardVideoComponent-imageCard-img {
+    border-radius: 7px;
+    overflow: hidden;
+}
+.genn-CardVideoComponent-CardsContainer {
+    display: none;
+}
+.genn-cardVideo-containerText {
+    color: #fff;
+    border-radius: 0px 0px 30px 30px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) -42.37%, rgba(0, 0, 0, 0.27) 99.67%);
+    flex: 1;
+    height: 50%;
+    min-height: 245px;
+}
+
+.genn-cardVideo-title {
+    color: #FFF;
+    -webkit-text-stroke-color: #EEECEA;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 23px 24px 40px 16px;
+}
+
+.genn-cardVideo-des {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.genn-CardVideoComponent .genn-Baner-video {
+    border-radius: 30px 30px 0px 0px;
+    overflow: hidden;
+    height: 50%;
+}
+
+.genn-CardVideo {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background: linear-gradient(0deg, #111 0%, #111 100%), url(<path-to-image>) lightgray -106.934px -71.861px / 154.149% 130.885% no-repeat;
+}
+
+.genn-CardVideoComponent-imageCard-title {
+    padding-top: 22px;
+    padding-bottom: 28px;
+}
+
+.genn-CardVideoComponent-imageCard-buttonContainer {
+    padding-bottom: 18px;
+    padding-top: 40px;
+}
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-CardVideoComponent {
+        flex-wrap: wrap;
+        padding: 50px 54px 50px 54px;
+    }
+    
+    .genn-CardVideoComponent-imageCard {
+        width: 100%;
+    }
+    
+    .genn-cardVideo-main-1 {
+        width: 52%;
+    }
+    
+    .genn-cardVideo-main-2 {
+        width: 41%;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-CardVideoComponent-CardsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .genn-cardVideo-main-1{
+        display: none;
+    }
+    .genn-cardVideo-main-2{
+        display: none;
+    }
+    .genn-CardVideoComponent-imageCard.mobile {
+        background: #000;
+    }
+    
+    
+    
+    .genn-CardVideoComponent-imageCard-title.mobile {
+        color: #fff;
+    }
+    
+    .genn-CardVideoComponent-imageCard-textContainer.mobile {
+        background: #000;
+        color: #86868B;
+        display: block;
+    }
+    
+    .genn-CardVideoComponent-imageCard-des.mobile {
+        color: #86868B;
+        text-align: start;
+        padding: 14px 0 74px 30px;
+    }
+    
+    .genn-CardVideoComponent-imageCard-buttonContainer.mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .genn-CardVideoComponent {
+        flex-wrap: wrap;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    .genn-CardVideoComponent-imageCard {
+        width: 100%;
+    }
+    
+    .genn-cardVideo-main-1 {
+        width: 52%;
+    }
+    
+    .genn-cardVideo-main-2 {
+        width: 41%;
+    }
+    .genn-CardVideoComponent-imageCard.mobile{
+        display: block;
+    }
+.genn-CardVideoComponent-imageCard.pc{
+    display: none
+}
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-CardVideoComponent-CardsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .genn-cardVideo-main-1{
+        display: none;
+    }
+    .genn-cardVideo-main-2{
+        display: none;
+    }
+    .genn-CardVideoComponent-imageCard.mobile {
+        background: #000;
+    }
+    
+    
+    
+    .genn-CardVideoComponent-imageCard-title.mobile {
+        color: #fff;
+    }
+    
+    .genn-CardVideoComponent-imageCard-textContainer.mobile {
+        background: #000;
+        color: #86868B;
+        display: block;
+    }
+    
+    .genn-CardVideoComponent-imageCard-des.mobile {
+        color: #86868B;
+        text-align: start;
+        padding: 14px 0 74px 30px;
+    }
+    
+    .genn-CardVideoComponent-imageCard-buttonContainer.mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .genn-CardVideoComponent {
+        flex-wrap: wrap;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    .genn-CardVideoComponent-imageCard {
+        width: 100%;
+    }
+    
+    .genn-cardVideo-main-1 {
+        width: 52%;
+    }
+    
+    .genn-cardVideo-main-2 {
+        width: 41%;
+    }
+    .genn-CardVideoComponent-imageCard.mobile{
+        display: block;
+    }
+.genn-CardVideoComponent-imageCard.pc{
+    display: none
+}
+}
+
+@media  (max-width: 374px) {
+    .genn-CardVideoComponent-CardsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .genn-cardVideo-main-1{
+        display: none;
+    }
+    .genn-cardVideo-main-2{
+        display: none;
+    }
+    .genn-CardVideoComponent-imageCard.mobile {
+        background: #000;
+    }
+    
+    
+    
+    .genn-CardVideoComponent-imageCard-title.mobile {
+        color: #fff;
+    }
+    
+    .genn-CardVideoComponent-imageCard-textContainer.mobile {
+        background: #000;
+        color: #86868B;
+        display: block;
+    }
+    
+    .genn-CardVideoComponent-imageCard-des.mobile {
+        color: #86868B;
+        text-align: start;
+        padding: 14px 0 74px 30px;
+    }
+    
+    .genn-CardVideoComponent-imageCard-buttonContainer.mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .genn-CardVideoComponent {
+        flex-wrap: wrap;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    .genn-CardVideoComponent-imageCard {
+        width: 100%;
+    }
+    
+    .genn-cardVideo-main-1 {
+        width: 52%;
+    }
+    
+    .genn-cardVideo-main-2 {
+        width: 41%;
+    }
+    .genn-CardVideoComponent-imageCard.mobile{
+        display: block;
+    }
+.genn-CardVideoComponent-imageCard.pc{
+    display: none
+}
+}

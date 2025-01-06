@@ -1,0 +1,809 @@
+.genn-CommentsModal-containerCard .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
+  display: none;
+}
+.genn-CommentsModal-containerCard .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: #d9d9d9;
+}
+.genn-CommentsModal-containerCard .next,
+.genn-CommentsModal-containerCard .prev {
+  background-color: #dddddd00 !important;
+}
+
+.genn-CommentsModal-containerCard .swiper-pagination-bullet-active {
+  color: #fff;
+  position: relative;
+  width: 30px;
+  border-radius: 10px;
+  height: 7px;
+}
+.genn-CommentsModal-containerCard .swiper-pagination-bullet-active::before {
+  content: "";
+  background-color: #707070;
+  position: absolute;
+  left: 0;
+  height: 7px;
+  animation-name: example;
+  animation-duration: 10s;
+  border-radius: 10px;
+}
+
+@keyframes example {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.genn-CommentsModal-containerCard .next {
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #ddd !important;
+  opacity: 0.5;
+  color: black !important;
+  z-index: 1;
+}
+.genn-CommentsModal-description {
+  font-family: Inter;
+}
+.genn-CommentsModal-containerCard .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.genn-CommentsModal-containerCard .prev {
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #ddd !important;
+  opacity: 0.5;
+  color: black !important;
+  z-index: 1;
+}
+
+.genn-CommentsModal-containerCard .prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.mb {
+  display: none !important;
+}
+.genn-CommentsModel-2-block-menu:hover {
+  color: #ff5a00;
+}
+i.fa-solid.fa-xmark {
+  width: 50px;
+  height: 50px;
+  background: #1f1f20;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28.8px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+}
+.genn-CommentsModal-modalcontainIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.genn-CommentsModal-close {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #1f1f20;
+  color: #86868a;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.genn-CommentsModal-modalcontainIcons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #1f1f20;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  /* gap: 40px; */
+}
+
+.genn-CommentsModal-modalcontainIcons {
+  padding: 0 80px;
+}
+
+.genn-CommentsModal-buttons-model {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.genn-CommentsModal-modal {
+  padding: 0 !important;
+}
+.genn-CommentsModal-overlay {
+  background: black;
+  color: white;
+  overflow: hidden;
+}
+
+.genn-CommentsModal-model-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 43px;
+  text-align: center;
+}
+
+.genn-CommentsModel-2-block {
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.genn-CommentsModel-2-block-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.genn-CommentsModel-2-block-menu img {
+  width: 40px;
+  height: 40px;
+}
+
+.genn-CommentsModel-2-block-menu-text {
+  font-size: 10px;
+  font-weight: 400;
+}
+.genn-CommentsModal-containerCard {
+  gap: 40px;
+  position: relative;
+}
+.genn-CommentsModal-description {
+  font-size: 14px;
+}
+.genn-CommentsModal-card button {
+  font-size: 12px;
+}
+.genn-CommentsModal-card {
+  display: flex;
+  width: 223px;
+  height: 406px;
+  padding: 24px 29px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background: #999591;
+}
+.genn-CommentsModal-card div {
+  color: #fff;
+  text-align: center;
+  -webkit-text-stroke-width: 0.699999988079071;
+  -webkit-text-stroke-color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.genn-CommentsModal-card button {
+  display: flex;
+  height: 39px;
+  padding: 11px 13px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 19.5px;
+  background: #ff5a00;
+  color: #fff;
+}
+.genn-Model-slider-overlay .swiper-slide video {
+  width: 100%;
+  max-height: 70vh; /* Ensure videos fit within the viewport */
+  object-fit: fill; /* Ensures video content adjusts without distortion */
+  border-radius: 8px; /* Rounded corners */
+}
+.genn-CommentsModal-title {
+  color: #fff;
+  text-align: center;
+  font-family: "sf-pro";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 53px;
+}
+.genn-CommentsModal-description {
+  margin-top: 44px;
+  color: #fff;
+  text-align: center;
+  -webkit-text-stroke-width: 0.699999988079071;
+  -webkit-text-stroke-color: #fff;
+  /* font-family: Inter; */
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.genn-Model-slider-overlay .swiper {
+  height: auto; /* Let the height adjust based on content */
+}
+
+.swiper-container {
+  max-height: 80vh; /* Adjust slider to fit within the modal */
+  /* Prevent content overflow */
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .mb {
+    display: none;
+  }
+  .genn-CommentsModal-title {
+    margin-bottom: 42px;
+  }
+
+  .genn-CommentsModal {
+    padding: 36px;
+  }
+
+  .genn-CommentsModal-description {
+    font-size: 14px;
+    margin-top: 55px;
+  }
+
+  .genn-CommentsModal-card button {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .mb {
+    display: none;
+  }
+  .genn-CommentsModal-title {
+    margin-bottom: 42px;
+  }
+
+  .genn-CommentsModal {
+    padding: 36px;
+  }
+
+  .genn-CommentsModal-description {
+    font-size: 14px;
+    margin-top: 55px;
+  }
+
+  .genn-CommentsModal-card button {
+    font-size: 12px;
+  }
+
+  .genn-CommentsModal-video {
+    width: 100%;
+    max-height: 80vh; /* Restrict the video height */
+    border-radius: 8px;
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+
+  .genn-Model-slider-overlay .swiper-slide video {
+    width: 100%;
+    max-height: 70vh; /* Ensure videos fit within the viewport */
+    object-fit: fill; /* Ensures video content adjusts without distortion */
+    border-radius: 8px; /* Rounded corners */
+  }
+
+  .genn-Model-slider-overlay .swiper {
+    height: auto; /* Let the height adjust based on content */
+  }
+
+  .swiper-container {
+    max-height: 80vh; /* Adjust slider to fit within the modal */
+    /* Prevent content overflow */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .genn-CommentsModal-containerCard .swiper-slide {
+    opacity: 0.5 !important;
+  }
+  .genn-CommentsModal-containerCard .swiper-slide-prev {
+    opacity: 1 !important;
+  }
+  .genn-CommentsModal-containerCard .swiper-slide-active {
+    opacity: 1 !important;
+  }
+  .genn-CommentsModal-description div {
+    max-width: 300px;
+  }
+  .genn-CommentsModal-video {
+    width: 100%;
+    max-height: 80vh; /* Restrict the video height */
+    border-radius: 8px;
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+
+  .genn-Model-slider-overlay .swiper-slide video {
+    width: 100%;
+    max-height: 70vh; /* Ensure videos fit within the viewport */
+    object-fit: fill; /* Ensures video content adjusts without distortion */
+    border-radius: 8px; /* Rounded corners */
+  }
+
+  .genn-Model-slider-overlay .swiper {
+    height: auto; /* Let the height adjust based on content */
+  }
+
+  .swiper-container {
+    max-height: 80vh; /* Adjust slider to fit within the modal */
+    /* Prevent content overflow */
+  }
+  .genn-CommentsModal-modalcontainIcons.mb {
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 33px;
+  }
+
+  .genn-CommentsModal-icon-arrwo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .ds {
+    display: none;
+  }
+  .mb {
+    display: flex !important;
+  }
+  .genn-CommentsModal-title {
+    margin-bottom: 42px;
+  }
+
+  .genn-CommentsModal {
+    padding: 36px;
+  }
+
+  .genn-CommentsModal-description {
+    font-size: 14px;
+    margin-top: 93px;
+  }
+
+  .genn-CommentsModal-card button {
+    font-size: 12px;
+  }
+
+  .genn-CommentsModal-description-div {
+    max-width: 297px;
+  }
+  .genn-CommentsModal-containerCard .prev {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .genn-CommentsModal-containerCard .prev {
+    display: flex;
+  }
+  .genn-CommentsModal-containerCard .swiper-pagination {
+    bottom: 13px;
+  }
+  .genn-CommentsModal-containerCard .swiper-pagination {
+    bottom: -4px !important;
+    z-index: 1000;
+  }
+  .genn-CommentsModal-containerCard .genn-CommentsModal-containerCard .swiper {
+    padding-bottom: 31px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .genn-CommentsModal-containerCard .swiper{
+    overflow: auto !important;
+    position: static !important;
+  }
+  .genn-CommentsModal-containerCard .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: block;
+    bottom: -25px !important;
+  }
+  .genn-CommentsModal-containerCard .swiper-slide {
+    opacity: 0.5 !important;
+  }
+
+  .genn-CommentsModal-containerCard .swiper-slide-active {
+    opacity: 1 !important;
+  }
+  .genn-CommentsModal-description div {
+    max-width: 300px;
+  }
+  .genn-CommentsModal-video {
+    width: 100%;
+    max-height: 80vh; /* Restrict the video height */
+    border-radius: 8px;
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+
+  .genn-Model-slider-overlay .swiper-slide video {
+    width: 100%;
+    max-height: 70vh; /* Ensure videos fit within the viewport */
+    object-fit: fill; /* Ensures video content adjusts without distortion */
+    border-radius: 8px; /* Rounded corners */
+  }
+
+  .genn-Model-slider-overlay .swiper {
+    height: auto; /* Let the height adjust based on content */
+  }
+
+  .genn-CommentsModal-containerCard  .swiper-container {
+    max-height: 80vh; /* Adjust slider to fit within the modal */
+    /* Prevent content overflow */
+  }
+  .genn-CommentsModal-modalcontainIcons.mb {
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 33px;
+  }
+
+  .genn-CommentsModal-icon-arrwo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 33px;
+  }
+  .genn-CommentsModel-2-block {
+    overflow-x: scroll;
+  }
+  .ds {
+    display: none;
+  }
+  .mb {
+    display: block !important;
+  }
+  .genn-CommentsModal-title {
+    margin-bottom: 42px;
+  }
+
+  .genn-CommentsModal {
+    padding: 36px 0;
+  }
+
+  .genn-CommentsModal-description {
+    font-size: 14px;
+    margin-top: 93px;
+  }
+
+  .genn-CommentsModal-card button {
+    font-size: 12px;
+  }
+
+  .genn-CommentsModal-description-div {
+    max-width: 297px;
+  }
+
+  .genn-CommentsModal-containerCard {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+  .genn-CommentsModal-modalcontainIcons {
+    display: flex;
+    flex-direction: column;
+  }
+  .genn-CommentsModal-modalcontainIcons {
+    padding-bottom: 30px;
+}
+  .genn-CommentsModal-buttons-model.mt-4 {
+    margin-top: 0;
+  }
+  .genn-CommentsModal-modalcontainIcons{
+    padding: 0 !important;
+  }
+  .genn-CommentsModal-containerCard .swiper{
+    overflow: auto !important;
+    position: static;
+  }
+  .genn-CommentsModal-containerCard .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: block;
+    bottom: -25px !important;
+  }
+  .genn-CommentsModal-description div {
+    max-width: 300px;
+  }
+  .genn-CommentsModal-video {
+    width: 100%;
+    max-height: 80vh; /* Restrict the video height */
+    border-radius: 8px;
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+
+  .genn-Model-slider-overlay .swiper-slide video {
+    width: 100%;
+    max-height: 70vh; /* Ensure videos fit within the viewport */
+    object-fit: fill; /* Ensures video content adjusts without distortion */
+    border-radius: 8px; /* Rounded corners */
+  }
+
+  .genn-Model-slider-overlay .swiper {
+    height: auto; /* Let the height adjust based on content */
+  }
+
+  .swiper-container {
+    max-height: 80vh; /* Adjust slider to fit within the modal */
+    /* Prevent content overflow */
+  }
+  .genn-CommentsModal-modalcontainIcons.mb {
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 33px;
+  }
+  .genn-CommentsModel-2-block {
+    gap: 28px;
+  }
+  .genn-CommentsModal-icon-arrwo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 33px;
+  }
+  .genn-CommentsModel-2-block {
+    overflow-x: scroll;
+  }
+  .ds {
+    display: none;
+  }
+  .mb {
+    display: block !important;
+  }
+  .genn-CommentsModal-title {
+    margin-bottom: 42px;
+  }
+
+  .genn-CommentsModal {
+    padding: 36px 0;
+  }
+
+  .genn-CommentsModal-description {
+    font-size: 14px;
+    margin-top: 93px;
+  }
+
+  .genn-CommentsModal-card button {
+    font-size: 12px;
+  }
+
+  .genn-CommentsModal-description-div {
+    max-width: 297px;
+  }
+
+  .genn-CommentsModal-containerCard {
+    gap: 20px;
+  }
+  .genn-CommentsModel-2-block {
+    padding-bottom: 10px;
+  }
+  .genn-Model-slider-overlay .swiper {
+    padding: 25px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .genn-CommentsModal-modalcontainIcons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .genn-CommentsModal-buttons-model.mt-4 {
+    margin-top: 0;
+  }
+  .genn-CommentsModal-modalcontainIcons{
+    padding: 0 !important;
+  }
+  .swiper{
+    overflow: auto !important;
+    position: static;
+  }
+  .genn-CommentsModal-containerCard .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: block;
+    bottom: -25px !important;
+  }
+  .genn-CommentsModel-2-block {
+    padding-bottom: 10px;
+  }
+  .genn-Model-slider-overlay .swiper {
+    padding: 25px 0;
+  }
+  .genn-CommentsModal-containerCard .swiper-slide {
+    opacity: 0.5 !important;
+  }
+
+  .genn-CommentsModal-containerCard .swiper-slide-active {
+    opacity: 1 !important;
+  }
+  .genn-CommentsModal-description div {
+    max-width: 300px;
+  }
+  .genn-CommentsModal-video {
+    width: 100%;
+    max-height: 80vh; /* Restrict the video height */
+    border-radius: 8px;
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+   .tgui-5dc6ad1ca3ac3ed4 {
+    border-radius: 26px ;
+}
+
+.genn-CommentsModal-mobil {
+    padding-top: 23px;
+}
+
+.genn-CommentsModal-modalcontainIconsone {
+    padding: 0 12px 10px 12px;
+}
+
+.genn-fl-row.genn-CommentsModel-2-block.text-white {
+    padding: 10px 11px;
+}
+  .genn-Model-slider-overlay .swiper-slide video {
+    width: 100%;
+    max-height: 70vh; /* Ensure videos fit within the viewport */
+    object-fit: fill; /* Ensures video content adjusts without distortion */
+    border-radius: 8px; /* Rounded corners */
+  }
+
+  .genn-Model-slider-overlay .swiper {
+    height: auto; /* Let the height adjust based on content */
+  }
+
+  .swiper-container {
+    max-height: 80vh; /* Adjust slider to fit within the modal */
+    /* Prevent content overflow */
+  }
+  .genn-CommentsModel-2-block {
+    gap: 28px;
+  }
+  .genn-CommentsModal-modalcontainIcons.mb {
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 33px;
+  }
+
+  .genn-CommentsModal-icon-arrwo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 33px;
+  }
+  .genn-CommentsModel-2-block {
+    overflow-x: scroll;
+  }
+  .ds {
+    display: none;
+  }
+  .mb {
+    display: block !important;
+  }
+  .genn-CommentsModal-title {
+    margin-bottom: 42px;
+  }
+
+  .genn-CommentsModal {
+    padding: 36px 0;
+  }
+
+  .genn-CommentsModal-description {
+    font-size: 14px;
+    margin-top: 93px;
+  }
+
+  .genn-CommentsModal-card button {
+    font-size: 12px;
+  }
+
+  .genn-CommentsModal-description-div {
+    max-width: 297px;
+  }
+
+  .genn-CommentsModal-containerCard {
+    gap: 20px;
+  }
+
+}
+.genn-CommentsModal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  overflow: hidden;
+}
+.genn-Model-slider-overlay .swiper-slide {
+  opacity: 0.5; /* Default opacity for all slides */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+.genn-Model-slider-overlay .swiper-slide-active {
+  opacity: 1; /* Full opacity for active slide */
+}
+
+.genn-Model-slider-overlay .swiper-slide-prev,
+.genn-Model-slider-overlay .swiper-slide-next {
+  opacity: 0.8; /* Slightly higher opacity for prev and next slides */
+}
+
+.genn-CommentsModal-modal {
+  background: transparent;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.genn-CommentsModal-close {
+  font-size: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.genn-CommentsModal-video {
+  width: 100%;
+  max-height: 80vh; /* Restrict the video height */
+  border-radius: 8px;
+  object-fit: contain; /* Maintain aspect ratio */
+}
+.genn-CommentsModal-mobil.bg-black {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.genn-CommentsModal-modalcontainIconsone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+

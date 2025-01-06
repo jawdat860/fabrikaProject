@@ -1,0 +1,450 @@
+.card1 {
+  width: 113px;
+  gap: 15px;
+}
+.card2 {
+  width: 82px;
+  gap: 15px;
+}
+.card3 {
+  width: 85px;
+  gap: 17px;
+}
+.card4 {
+  width: 88px;
+  gap: 17px;
+}
+.card5 {
+  width: 75px;
+  gap: 32px;
+}
+.card6 {
+  width: 93px;
+  gap: 30px;
+}
+.card7 {
+  width:73px;
+  gap: 20px;
+}
+.card8 {
+  width: 54px;
+  gap: 29px;
+}
+.genn-IconsBox-containerCard {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+  padding: 60px 66px;
+  justify-content: space-between;
+  align-items: center;
+}
+.genn-IconsBox-Card img {
+  width: 48px;
+  height: 48px;
+}
+.genn-IconsBox-Card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-family: "sf-pro-semi";
+}
+.genn-IconsBox-Card h4 {
+  color: #000;
+  -webkit-text-stroke-width: 0.30000001192092896;
+  -webkit-text-stroke-color: #000;
+  font-family: "sf-pro-semi";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.genn-IconsBox-Card button {
+  color: #ff5a00;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.genn-IconsBox-Card h4 {
+  font-weight: bold;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .card1 {
+    width: 113px;
+    gap: 15px;
+  }
+  .card2 {
+    width: 82px;
+    gap: 15px;
+  }
+  .card3 {
+    width: 85px;
+    gap: 17px;
+  }
+  .card4 {
+    width: 88px;
+    gap: 17px;
+  }
+  .card5 {
+    width: 75px;
+    gap: 32px;
+  }
+  .card6 {
+    width: 93px;
+    gap: 30px;
+  }
+  .card7 {
+    width:73px;
+    gap: 20px;
+  }
+  .card8 {
+    width: 54px;
+    gap: 29px;
+  }
+  .genn-IconsBox {
+    padding: 0px 38px 68px 38px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .card1 {
+    width: 113px;
+    gap: 15px;
+  }
+  .card2 {
+    width: 81px;
+    gap: 15px;
+  }
+  .card3 {
+    width: 87px;
+    gap: 17px;
+  }
+  .card4 {
+    width: 84px;
+    gap: 17px;
+  }
+  .card5 {
+    width: 75px;
+    gap: 32px;
+  }
+  .card6 {
+    width: 72px;
+    gap: 30px;
+  }
+  .card7 {
+    width:73px;
+    gap: 20px;
+  }
+  .card8 {
+    width: 45px;
+    gap: 29px;
+  }
+  .genn-VideoSlider-card {
+    width: 265px;
+  }
+
+  .genn-IconsBox-Card h4 {
+    font-weight: bold;
+   
+  }
+
+  .genn-IconsBox {
+    padding: 0px 31px 42px 31px;
+  }
+
+  .genn-IconsBox-containerCard {
+    padding: 50px 90px 32px 55px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .card1 h4 {
+    width: 112px;
+    gap: 15px;
+  }
+  .card2 h4{
+    width: 81px;
+    gap: 15px;
+  }
+  .card3 h4 {
+    width: 87px;
+    gap: 17px;
+  }
+  .card4 h4 {
+    width: 84px;
+    gap: 17px;
+  }
+  .card5 h4{
+    width: 77px;
+    gap: 32px;
+  }
+  .card6 h4 {
+    width: 76px;
+    gap: 30px;
+  }
+  .card7 h4 {
+    width:76px;
+    gap: 20px;
+  }
+  .card8  h4{
+    width: 54px;
+    gap: 29px;
+  }
+  
+  .genn-IconsBox-Card {
+    flex: 19%;
+}
+  .genn-IconsBox-Card h4 {
+    font-weight: bold;
+   
+  }
+
+  .genn-IconsBox {
+    padding: 0px 71px 83px 70px;
+  }
+
+  .genn-IconsBox-containerCard {
+    padding: 30px 44px 41px 44px;
+    flex-wrap: wrap;
+    gap: 39px;
+  }
+
+
+
+  button.genn-IconsBox-Card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+ 
+  .card1 h4 {
+    width: 112px;
+    gap: 15px;
+  }
+  .card2 h4{
+    width: 81px;
+    gap: 15px;
+  }
+  .card3 h4 {
+    width: 87px;
+    gap: 17px;
+  }
+  .card4 h4 {
+    width: 84px;
+    gap: 17px;
+  }
+  .card5 h4{
+    width: 77px;
+    gap: 32px;
+  }
+  .card6 h4 {
+    width: 76px;
+    gap: 30px;
+  }
+  .card7 h4 {
+    width:76px;
+    gap: 20px;
+  }
+  .card8  h4{
+    width: 54px;
+    gap: 29px;
+  }
+  .genn-IconsBox {
+    padding: 67px 40px 50px 40px;
+  }
+
+  button.genn-IconsBox-Card {
+    width: 100%;
+  }
+
+  .genn-IconsBox-containerCard {
+    padding: 49px 17px 49px 43px;
+    gap: 25px 20%;
+  }
+
+  .genn-IconsBox-Card {
+   flex: 30%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+  .card1 h4 {
+    width: 112px;
+    gap: 15px;
+  }
+  .card2 h4{
+    width: 81px;
+    gap: 15px;
+  }
+  .card3 h4 {
+    width: 87px;
+    gap: 17px;
+  }
+  .card4 h4 {
+    width: 84px;
+    gap: 17px;
+  }
+  .card5 h4{
+    width: 77px;
+    gap: 32px;
+  }
+  .card6 h4 {
+    width: 76px;
+    gap: 30px;
+  }
+  .card7 h4 {
+    width:76px;
+    gap: 20px;
+  }
+  .card8  h4{
+    width: 54px;
+    gap: 29px;
+  }
+  .genn-IconsBox {
+    padding: 0px 38px 60px 38px;
+  }
+
+  button.genn-IconsBox-Card {
+    width: 100%;
+  }
+
+  .genn-IconsBox-containerCard {
+    padding: 38px 43px 49px 38px;
+    gap: 25px 20%;
+  }
+
+  .genn-IconsBox-Card {
+    flex: 30%;
+    /* gap: 10px; */
+  }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+  
+ 
+  .card1 h4  {
+    width: 106px;
+    gap: 15px;
+  }
+  .card2 h4{
+    width: 81px;
+    gap: 15px;
+  }
+  .card3 h4 {
+    width: 87px;
+    gap: 17px;
+  }
+  .card4 h4 {
+    width: 84px;
+    gap: 17px;
+  }
+  .card5 h4{
+    width: 77px;
+    gap: 32px;
+  }
+  .card6 h4 {
+    width: 76px;
+    gap: 30px;
+  }
+  .card7 h4 {
+    width:76px;
+    gap: 20px;
+  }
+  .card8  h4{
+    width: 54px;
+    gap: 29px;
+  }
+  .genn-IconsBox {
+    padding: 0px 21px 60px 21px;
+    flex: 30%;
+  }
+
+  button.genn-IconsBox-Card {
+    width: 100%;
+  }
+
+  .genn-IconsBox-containerCard {
+    padding: 38px 43px 49px 38px;
+    gap: 25px 20%;
+    flex-wrap: wrap;
+  }
+
+  /* .genn-IconsBox-Card {
+    max-width: 90px;
+    gap: 10px;
+  }
+  .card2 {
+    height: 10px;
+  } */
+}
+
+@media  (max-width: 374px){
+ 
+  .card1 h4  {
+    width: 106px;
+    gap: 15px;
+  }
+  .card2 {
+    width: 82px;
+    gap: 15px;
+  }
+  .card3 h4 {
+    width: 87px;
+    gap: 17px;
+  }
+  .card4  {
+    width: 82px;
+    gap: 17px;
+  }
+  .card5 h4{
+    width: 77px;
+    gap: 32px;
+  }
+  .card6  {
+    width: 82px;
+    
+  }
+  .card7 h4 {
+    width:76px;
+    gap: 20px;
+  }
+  .card8  {
+    width: 82px;
+   
+    
+  }
+  .genn-IconsBox {
+    padding: 76px 13px 60px 13px;
+    flex: 30%;
+  }
+
+  button.genn-IconsBox-Card {
+    width: 100%;
+  }
+
+  .genn-IconsBox-containerCard {
+    padding: 38px 43px 49px 38px;
+    gap: 25px 20%;
+    flex-wrap: wrap;
+  } 
+}
+
+
+@media (min-width: 768px) {
+  .dn-pc {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .dn-mob {
+    display: none;
+  }
+  .genn-IconsBox {
+    padding: 76px 13px 60px 13px;    
+  }
+}
+
+

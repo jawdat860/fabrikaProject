@@ -1,0 +1,66 @@
+.genn-TwoButtonV2-button1 {
+  display: flex;
+  /* width: 158px; */
+  height: 39px;
+  padding: 11px 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 19.5px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.genn-TwoButtonV2-button2 {
+  width: 157px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 19.5px;
+  border: 1px solid #fff;
+  background: #000;
+  color: #fff;
+}
+
+@media (min-width: 1440px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+}
+
+@media (min-width: 414px) and (max-width: 768px) {
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+
+
+button.genn-TwoButtonV2-button1 {
+  padding: 11px 13px 11px 13px;
+  max-width: 158px;
+  font-size: 12px;
+}
+
+button.genn-TwoButtonV2-button2 {
+  padding: 11px 13px 11px 13px;
+  max-width: 158px;
+  font-size: 12px;
+}
+}
+
+@media  (max-width: 375px) {
+
+
+button.genn-TwoButtonV2-button1 {
+  padding: 11px 13px 11px 13px;
+  max-width: 158px;
+  font-size: 12px;
+}
+
+button.genn-TwoButtonV2-button2 {
+  padding: 11px 13px 11px 13px;
+  max-width: 158px;
+  font-size: 12px;
+}
+}

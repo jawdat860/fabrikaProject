@@ -1,0 +1,358 @@
+.swiper-button .swiper-button-prev, .swiper-button .swiper-button-next {
+  display:none
+}
+.genn-TitleModel-p {
+  padding-bottom: 30px;
+}
+.videoSlider-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.videoSlider-modal {
+  background: transparent;
+  overflow-y: scroll;
+  border-radius: 8px;
+  max-width: 600px;
+  height: 700px;
+  width: 90%;
+  position: relative;
+  background-color: #fff;
+
+}
+
+.videoSlider-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.videoSlider-modal-forImageAndText {
+
+  max-height: 700px;
+}
+.videoSlider-modal-video {
+  width: 100%;
+
+  border-radius: 8px;
+  height: 100%;
+  object-fit: inherit;
+}
+
+
+.swiper-button-prev2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #a2a0a0;
+  color: #a2a0a0;
+}
+.swiper-button-next2{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #a2a0a0;
+  color: #a2a0a0;
+}
+.swiper-button{
+  display: none;
+}
+.genn-videoSlider-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0.41%,
+    rgba(27, 27, 27, 0.5) 43.55%,
+    rgba(0, 0, 0, 0.7) 99.59%
+  );
+  color: white;
+}
+.genn-videoSlider-text1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: end;
+
+  color: white;
+}
+.genn-videoSlider-text-img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 4px;
+  right: 6px;
+}
+
+.genn-videoSlider-text-contain {
+  padding-right: 48px;
+  height: 100px;
+}
+.swiper-button2{
+  display: none;
+}
+.genn-videoSlider-text2 {
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  line-height: 1;
+  -webkit-text-stroke-color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 10px;
+  position: relative;
+  width: 100%;
+}
+
+.genn-VideoSlider-card video {
+  max-width: 265.5px;
+  height: 397.5px;
+  border-radius: 30px;
+}
+.genn-VideoSlider-card {
+  max-width: 265px;
+  border-radius: 30px;
+  position: relative;
+  min-height: 379.5px;
+}
+
+.genn-videoSlider-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0.41%,
+    rgba(27, 27, 27, 0.5) 43.55%,
+    rgba(0, 0, 0, 0.7) 99.59%
+  );
+  color: white;
+}
+.genn-VideoSlider-card-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.genn-VideoSlider {
+
+  gap: 20px;
+}
+
+.genn-VideoSlider-card {
+  position: relative;
+
+  overflow: hidden;
+}
+.swiper-button2 {
+  display: none;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoSlider-banner {
+  position: absolute;
+  top: 4px;
+  right: 7px;
+}
+
+.videoSlider-circular-progress {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoSlider-circular-progress {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoSlider-progress-ring {
+  transform: rotate(-90deg);
+}
+
+.videoSlider-progress-ring__background {
+  fill: none;
+  stroke: #e0e0e0;
+  stroke-width: 3;
+}
+
+.videoSlider-progress-ring__progress {
+  fill: none;
+  stroke: white;
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s ease;
+}
+
+.videoSlider-circular-button {
+  position: absolute;
+
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.videoSlider-circular-button i {
+  font-size: 14px;
+  color: #fff;
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .swiper-button2{
+    display: none;
+  }
+  .genn-VideoSlider {
+    padding: 42px 38px;
+  }
+  .swiper-button{
+    display: block;
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+  .swiper-button-next::after {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: #ced2cfad;
+    border-radius: 50%;
+    color: black;
+    /* font-size: 14px; */
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .swiper-button2{
+    display: none;
+  }
+  .genn-VideoSlider {
+    padding: 42px 20px;
+  }
+  .swiper-button{
+    display: block;
+  }
+  .swiper-button-prev{
+    display: none;
+  }
+  .swiper-button-next::after {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: #ced2cfad;
+    border-radius: 50%;
+    color: black;
+    /* font-size: 14px; */
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .genn-VideoSlider {
+    padding: 42px 20px;
+  }
+  .genn-VideoSlider-card {
+    /* width: 265px; */
+  }
+  .swiper-button2{
+    display: flex;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .genn-VideoSlider {
+    padding: 42px 0px;
+  }
+  .swiper-button2{
+    display: flex;
+  }
+
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+  .genn-VideoSlider {
+    padding: 42px 0;
+  }
+  .swiper-button2{
+    display: flex;
+  }
+}
+
+@media  (max-width: 374px) {
+  .genn-VideoSlider {
+    padding: 42px 0;
+  }
+  .swiper-button2{
+    display: flex;
+  }
+}
