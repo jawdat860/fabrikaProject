@@ -1,0 +1,142 @@
+
+.genn-PrikhozhieTextbottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000;
+    padding-top: 62px;
+    padding-bottom: 32px;
+}
+
+.genn-PrikhozhieTextbottom-container-title {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'sf-pro-semi';
+    font-style: normal;
+    line-height: normal;
+}
+
+.genn-PrikhozhieTextbottom-container-description {
+    color: #fff;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    font-style: normal;
+    width: 820px;
+    padding-top: 22px;
+    padding-bottom: 18px;
+}
+
+.genn-PrikhozhieTextbottom-container-description2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 460px;
+    padding-bottom: 30px;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-PrikhozhieTextbottom-container-description {
+        width: 600px;
+        padding-top: 40px;
+        padding-bottom: 24px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+
+    .genn-PrikhozhieTextbottom-container {
+        padding-top: 30px;
+        background: #fff;
+    }
+    
+    .genn-PrikhozhieTextbottom-container-title {
+        color: #000;
+        width: 270px;
+        text-align: center;
+    }
+    
+
+    .genn-PrikhozhieTextbottom-container-description {
+        padding-top: 33px;
+        color: #000;
+        width: 300px;
+        padding-bottom: 14px;
+    }
+    
+    .genn-PrikhozhieTextbottom-container-description2 {
+        color: #000;
+        width: 318px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+
+
+    .genn-PrikhozhieTextbottom-container {
+        padding-top: 30px;
+        background: #fff;
+    }
+    
+    .genn-PrikhozhieTextbottom-container-title {
+        color: #000;
+        width: 270px;
+        text-align: center;
+    }
+    
+    .genn-PrikhozhieTextbottom-container-title {}
+    
+    .genn-PrikhozhieTextbottom-container-description {
+        padding-top: 33px;
+        color: #000;
+        width: 300px;
+        padding-bottom: 14px;
+    }
+    
+    .genn-PrikhozhieTextbottom-container-description2 {
+        color: #000;
+        width: 318px;
+    }
+}
+
+@media  (max-width: 374px) {
+
+
+    .genn-PrikhozhieTextbottom-container {
+        padding-top: 30px;
+        background: #fff;
+    }
+    
+    .genn-PrikhozhieTextbottom-container-title {
+        color: #000;
+        width: 270px;
+        text-align: center;
+    }
+    
+
+    
+    .genn-PrikhozhieTextbottom-container-description {
+        padding-top: 33px;
+        color: #000;
+        width: 300px;
+        padding-bottom: 14px;
+    }
+    
+    .genn-PrikhozhieTextbottom-container-description2 {
+        color: #000;
+        width: 318px;
+    }
+}

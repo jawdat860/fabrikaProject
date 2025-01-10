@@ -1,0 +1,184 @@
+#genn-kitchen-SliderBaner{
+    background-color: #F5F5F7;
+}
+.genn-TextComponentKitchen-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter';
+    stroke-width: 1px;
+    line-height: normal;
+    background: linear-gradient(90deg, #A1C192 -10.76%, #7EB0EB 104.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-bottom: 43px;
+}
+
+.genn-TextComponentKitchen-description {
+    color: black;
+    font-family: Inter;
+    width: 820px;
+    text-align: center;
+    line-height: normal;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.genn-TextComponentKitchen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.genn-TextComponentKitchen-description2 {
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    width: 464px;
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+@media (min-width: 768px)  {
+    .genn-TextComponentKitchen-buttonContainer {
+        margin-bottom: 22px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .genn-TextComponentKitchen-buttonContainer {
+        margin-bottom: 0 !important;
+    }
+    
+    .genn-TextComponentKitchen-title {
+        padding-top: 30px;
+        padding-bottom: 32px;
+        width: 301px;
+        line-height: normal;
+        font-size: 25px;
+    }
+    
+    .genn-TextComponentKitchen-description {
+        width: 634px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-TextComponentKitchen-description {
+        width: 285px;
+    }
+    
+    .genn-TextComponentKitchen-description2 {
+        width: 318px;
+    }
+    
+    .genn-TextComponentKitchen-buttonContainer {
+        width: 194px !important;
+        height: 40px !important;
+        border-radius: 19.5px !important;
+        border: 2px solid #4C674E !important;
+        opacity: 0.8 !important;
+    }
+    
+    
+    .genn-TextComponentKitchen-buttonContainer {
+        margin-bottom: 0 !important;
+    }
+    
+    .genn-TextComponentKitchen-title {
+        padding-top: 30px;
+        padding-bottom: 32px;
+        width: 301px;
+        line-height: normal;
+        font-size: 25px;
+    }
+    
+
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+
+    .genn-TextComponentKitchen-description {
+        width: 285px;
+    }
+    
+    .genn-TextComponentKitchen-description2 {
+        width: 318px;
+    }
+    
+    .genn-TextComponentKitchen-buttonContainer {
+        width: 194px !important;
+        height: 40px !important;
+        border-radius: 19.5px !important;
+        border: 2px solid #4C674E !important;
+        opacity: 0.8 !important;
+    }
+    
+    
+    .genn-TextComponentKitchen-buttonContainer {
+        margin-bottom: 0 !important;
+    }
+    
+    .genn-TextComponentKitchen-title {
+        padding-top: 30px;
+        padding-bottom: 32px;
+        width: 301px;
+        line-height: normal;
+        font-size: 25px;
+    }
+    
+
+}
+
+@media  (max-width: 374px) {
+
+    .genn-TextComponentKitchen-description {
+        width: 285px;
+    }
+    
+    .genn-TextComponentKitchen-description2 {
+        width: 318px;
+    }
+    
+    .genn-TextComponentKitchen-buttonContainer {
+        width: 194px !important;
+        height: 40px !important;
+        border-radius: 19.5px !important;
+        border: 2px solid #4C674E !important;
+        opacity: 0.8 !important;
+    }
+    
+    
+    .genn-TextComponentKitchen-buttonContainer {
+        margin-bottom: 0 !important;
+    }
+    
+    .genn-TextComponentKitchen-title {
+        padding-top: 30px;
+        padding-bottom: 32px;
+        width: 301px;
+        line-height: normal;
+        font-size: 25px;
+    }
+    
+ 
+}
+
+
+
+
+
+
+
+
+

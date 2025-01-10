@@ -1,0 +1,20 @@
+.genn-VideoSliderMobileModel {
+  background-color: #fff;
+  border-radius: 40px 40px 0 0;
+  overflow: auto;
+}
+.genn-VideoSliderMobileModel-info {
+  padding: 30px;
+}
+
+.genn-VideoSliderMobileModel-info h2 {
+  color: #000;
+  -webkit-text-stroke-width: 0.5;
+  -webkit-text-stroke-color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 34px;
+}

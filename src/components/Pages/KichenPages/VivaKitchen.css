@@ -1,0 +1,125 @@
+.genn-AdvantageskitchenBox.genn-EmeraldKitchen-AdvantageskitchenBox {
+    background-color: #92A29F;
+}
+#VivaKitchen  .genn-Footer-firstSection {
+    color: #000;
+}
+
+.genn-VivaKitchen{
+    background-color:#F5F5F7;
+}
+.genn-VivaKitchen-TextComponent {
+    padding-top: 41px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.genn-VivaKitchen-TextComponent-buttons {
+    display: flex;
+    gap: 26px;
+}
+
+.genn-VivaKitchen-TextComponent button.genn-Baner-button-v1 {
+    border: 1px solid #000;
+}
+
+.genn-VivaKitchen-TextComponent-des {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: #111;
+    width: 760px;
+    padding-bottom: 53px;
+}
+.genn-VivaKitchen-imageButton {
+    padding-bottom: 190px;
+}
+
+.genn-VivaKitchen-imageButton-buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 1440px)  {
+    .genn-VivaKitchen-TextComponent-des {
+        width: 760px !important;
+        padding-bottom: 45px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .genn-VivaKitchen-TextComponent-des {
+        width: 580px !important;;
+        padding-bottom: 45px;
+    }
+    .genn-VivaKitchen-imageButton {
+        padding-bottom: 55px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-VivaKitchen-imageButton {
+        padding-bottom: 55px;
+    }
+    .genn-VivaKitchen-TextComponent-des {
+        width: 580px !important;;
+        padding-bottom: 45px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-VivaKitchen-imageButton-image-container {
+        padding: 20px;
+    }
+    
+    .genn-VivaKitchen-imageButton {
+        padding-bottom: 25px;
+    }
+   
+    .genn-VivaKitchen-TextComponent-des {
+        width: 336px ;
+        padding-bottom: 45px;
+    }
+    .genn-VivaKitchen-TextComponent-buttons {
+        gap: 20px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-VivaKitchen-imageButton-image-container {
+        padding: 20px;
+    }
+    
+    .genn-VivaKitchen-imageButton {
+        padding-bottom: 25px;
+    }
+   
+    .genn-VivaKitchen-TextComponent-des {
+        width: 336px;
+        padding-bottom: 45px;
+    }
+    .genn-VivaKitchen-TextComponent-buttons {
+        gap: 10px;
+    }
+}
+
+@media  (max-width: 374px) {
+    .genn-VivaKitchen-imageButton-image-container {
+        padding: 20px;
+    }
+    
+    .genn-VivaKitchen-imageButton {
+        padding-bottom: 25px;
+    }
+   
+    .genn-VivaKitchen-TextComponent-des {
+        width: 336px;
+        padding-bottom: 45px;
+    }
+    .genn-VivaKitchen-TextComponent-buttons {
+        gap: 10px;
+    }
+}

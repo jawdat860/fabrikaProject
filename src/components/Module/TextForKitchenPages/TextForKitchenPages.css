@@ -1,0 +1,255 @@
+
+.genn-TextForKitchenPages-mob
+,.genn-TextForKitchenPages-des1200-desmob,
+.genn-TextForKitchenPages-ButtonContainer1200,
+.genn-TextForKitchenPages-ButtonContainer1200,
+.genn-TextForKitchenPages-ButtonContainer768-mob{
+    display: none;
+}
+.genn-TextForKitchenPages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 34px;
+    gap: 26px;
+    padding-bottom: 44px;
+}
+
+.genn-TextForKitchenPages-titlePc-1200-768 {
+    color: #000;
+    text-align: center;
+    -webkit-text-stroke-color: #000;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.genn-TextForKitchenPages-desPc {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media (min-width: 1440px)  {
+
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1439px) {
+    .genn-TextForKitchenPages-des1200-desmob{
+        display: block;
+    }
+    .genn-TextForKitchenPages-ButtonContainerPc{
+        display: none;
+    }
+    .genn-TextForKitchenPages-ButtonContainer1200{
+        display: block;
+    }
+    .genn-TextForKitchenPages-desPc {
+        display: none;
+    }
+    .genn-TextForKitchenPages-ButtonContainer1200 {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+    }
+    
+    .genn-TextForKitchenPages-des1200-desmob {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .genn-TextForKitchenPages {
+        padding-top: 102px;
+        gap: 37px;
+        padding-bottom: 69px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1199px){
+    .genn-TextForKitchenPages-ButtonContainerPc{
+        display: none;
+    }
+   
+    .genn-TextForKitchenPages-desPc {
+        display: none;
+    }
+    .genn-TextForKitchenPages-ButtonContainer768-mob{
+        display: block;
+    }
+    .genn-TextForKitchenPages-ButtonContainer768-mob {
+        display: flex;
+        gap: 21px;
+    }
+    
+    .genn-TextForKitchenPages {
+        padding-top: 73px;
+        gap: 43px;
+        padding-bottom: 55px;
+    }
+  }
+  @media (min-width: 414px) and (max-width: 767px) {
+    .genn-TextForKitchenPages-ButtonContainer768-mob {
+        display: flex;
+        gap: 21px;
+    }
+    .genn-TextForKitchenPages-ButtonContainerPc{
+        display: none;
+    }
+   
+    .genn-TextForKitchenPages-desPc {
+        display: none;
+    }
+    .genn-TextForKitchenPages-mob{
+        display: block;
+    }
+    .genn-TextForKitchenPages-titlePc-1200-768{
+        display: none;
+    }
+    .genn-TextForKitchenPages-des1200-desmob{
+        display: block;
+    }
+    .genn-TextForKitchenPages {
+        text-align: center;
+        padding-top: 41px;
+        gap: 32px;
+        padding-bottom: 63px;
+    }
+    
+    .genn-TextForKitchenPages-mob {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 327px;
+    }
+    
+    .genn-TextForKitchenPages-des1200-desmob {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 295px;
+    }
+    
+}
+
+  @media (min-width: 375px) and (max-width: 413px) {
+    .genn-TextForKitchenPages-ButtonContainer768-mob {
+        display: flex;
+        gap: 21px;
+    }
+    .genn-TextForKitchenPages-ButtonContainerPc{
+        display: none;
+    }
+   
+    .genn-TextForKitchenPages-desPc {
+        display: none;
+    }
+    .genn-TextForKitchenPages-mob{
+        display: block;
+    }
+    .genn-TextForKitchenPages-titlePc-1200-768{
+        display: none;
+    }
+    .genn-TextForKitchenPages-des1200-desmob{
+        display: block;
+    }
+    .genn-TextForKitchenPages {
+        text-align: center;
+        padding-top: 41px;
+        gap: 32px;
+        padding-bottom: 63px;
+    }
+    
+    .genn-TextForKitchenPages-mob {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 327px;
+    }
+    
+    .genn-TextForKitchenPages-des1200-desmob {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 295px;
+    }
+    
+  }
+  
+  @media  (max-width: 374px) {
+    .genn-TextForKitchenPages-ButtonContainer768-mob {
+        display: flex;
+        gap: 21px;
+    }
+    .genn-TextForKitchenPages-ButtonContainerPc{
+        display: none;
+    }
+   
+    .genn-TextForKitchenPages-desPc {
+        display: none;
+    }
+    .genn-TextForKitchenPages-mob{
+        display: block;
+    }
+    .genn-TextForKitchenPages-titlePc-1200-768{
+        display: none;
+    }
+    .genn-TextForKitchenPages-des1200-desmob{
+        display: block;
+    }
+    .genn-TextForKitchenPages {
+        text-align: center;
+        padding-top: 41px;
+        gap: 32px;
+        padding-bottom: 63px;
+    }
+    
+    .genn-TextForKitchenPages-mob {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 327px;
+    }
+    
+    .genn-TextForKitchenPages-des1200-desmob {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 295px;
+    }
+    
+  }
+ 

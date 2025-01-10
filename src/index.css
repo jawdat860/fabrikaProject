@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "sf-pro";
+  src: local("sf-pro"),
+    url("./fonts/SF-Pro-Display-Regular.ttf") format("truetype");
+  font-weight: 590;
+}
+.font-face-gm {
+  font-family: "sf-pro";
+}
+
+@font-face {
+  font-family: "sf-pro-semi";
+  src: local("sf-pro-semi"),
+    url("./fonts/SF-Pro-Display-Bold.otf") format("opentype");
+}
+.font-face-gme {
+  font-family: "sf-pro-semi";
+}
+@font-face {
+  font-family: "Tamil MN";
+  src: local("Tamil MN"), url("./fonts/TamilMN-01.ttf") format("truetype");
+}
+.font-face-mn {
+  font-family: "Tamil MN";
+}
+* {
+  box-sizing: border-box;
+}
+.tgui-f67c8fb3553eee55 {
+  padding: 10px !important;
+}
+.tgui-f67c8fb3553eee55:before {
+  background: white !important;
+}
+.tgui-3197096cb603b35a {
+  background: #21212196 !important;
+  z-index: 100 !important;
+}
+.tgui-cc76354712c6e8d9 {
+  z-index: 200 !important;
+  border-radius: 20px;
+}
+:root {
+  /* this is for header color */
+  --header-bg-1: #eeecea;
+  --header-bg-2: #fff;
+  --header-text-1: #000000;
+  --header-text-1-hover: #ff5a00;
+  --header-text-2: #000000;
+  --header-text-2-hover: #ff5a00;
+  --header-text-button: #fff;
+  --header-bg-button: #ff5a00;
+
+  /* this is for  body*/
+  --body-text-color: #000;
+  --body-bg-color: #fff;
+  --body-text-weight: 400;
+
+  /* this is for buttons color */
+  --button-1-bg: #fff;
+  --button-1-bg-hover: #ffffff80;
+  --button-1-text: #000;
+  --button-1-text-hover: #00000088;
+  --button-1-border: #000;
+
+  --button-2-bg: #000;
+  --button-2-bg-hover: #00000088;
+  --button-2-text: #fff;
+  --button-2-text-hover: #ffffff80;
+
+  --button-3-bg: #fff;
+  --button-3-bg-hover: #ffffff80;
+  --button-3-text: #000;
+  --button-3-text-hover: #00000088;
+  --button-3-border: #000;
+
+  --button-4-bg: #ff5a00;
+  --button-4-bg-hover: #ff590086;
+  --button-4-text: #fff;
+  --button-4-text-hover: #ffffff80;
+
+  --button-5-bg: #627867;
+  --button-5-bg-hover: #62786793;
+  --button-5-text: #fff;
+  --button-5-text-hover: #ffffff80;
+
+  --bannerSlider-bg: #eeecea;
+}
+.scroll-scale {
+  transition: transform 0.3s ease-in-out; /* Smooth scaling transition */
+  transform-origin: center center; /* Ensure the scaling happens from the center */
+}
+body {
+  background: var(--body-bg-color);
+  color: var(--body-text-color);
+  font-weight: var(--body-text-weight);
+}
+.genn-fl-row {
+  display: flex;
+  flex-direction: row;
+}
+#menu-icon {
+  z-index: 100000 !important;
+}
+@media (min-width: 1440px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+}
+
+@media (min-width: 414px) and (max-width: 768px) {
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+}
+
+@media (min-width: 360px) and (max-width: 375px) {
+}
+/* hide scrollbar but allow scrolling */
+::-webkit-scrollbar {
+  display: none !important;
+}
+.tgui-5dc6ad1ca3ac3ed4 {
+  flex: 1;
+  display: flex;
+}
+a.active {
+  color: red !important;
+}
+body{
+  color: #000 !important;
+}
+header{
+  color: #000;
+}

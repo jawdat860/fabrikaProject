@@ -1,0 +1,14 @@
+.genn-go-to-top{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    color: #fff;
+    border: none;    
+    cursor: pointer;  
+    z-index: 100;
+}
+.genn-go-to-top img {
+    width: 50px;
+    height:50px;
+    transform: rotate(-90deg);
+}

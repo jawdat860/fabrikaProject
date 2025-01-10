@@ -1,0 +1,522 @@
+.genn-EmeraldKitchen .genn-Footer-firstSection{
+    color: black;
+}
+.genn-advantageskitchen-ImageCategoryKitchen{
+    display: none;
+}
+.genn-advantageskitchen {
+    height: 436px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.genn-advantageskitchen-category {
+    width: 53%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.genn-advantageskitchen-category-image.genn-advantageskitchen-category-image-first {
+    height: 100%;
+    background: #000;
+    height: 376px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.genn-advantageskitchen-category-image.genn-advantageskitchen-category-image-second {
+    height: 100%;
+    background: #000;
+}
+
+.genn-advantageskitchen-category-image-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.genn-advantageskitchen-category-image.genn-advantageskitchen-category-image-therd {
+    height: 48%;
+    background: #000;
+}
+
+.genn-advantageskitchen-category-image.genn-advantageskitchen-category-image-four {
+    background: #000;
+    height: 48%;
+}
+
+.genn-advantageskitchen-category-image-first {
+    width: 31%;
+}
+
+.genn-advantageskitchen-category-image-second {
+    width: 37%;
+}
+
+.genn-advantageskitchen-category-image-container {
+    width: 27%;
+}
+
+.genn-advantageskitchen-category-image {
+    border-radius: 20px;
+}
+.genn-advantageskitchen-category-image.genn-advantageskitchen-category-image-first {
+    background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+    }
+    
+    
+    
+    .genn-advantageskitchen-category-image.genn-advantageskitchen-category-image-second {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .genn-advantageskitchen-category-image.genn-advantageskitchen-category-image-therd {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .genn-advantageskitchen-category-image.genn-advantageskitchen-category-image-four {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .genn-VideoBgButton {
+        position: relative;
+        min-height: 300px;
+    }
+    .genn-VideoBgButton video{
+        
+        min-height: 300px;
+    }
+    .genn-advantageskitchen-ImageCategoryKitchen {
+        padding-top: 17px;
+    }
+
+
+#sidebar {
+    top: 0;
+    z-index: 10000 !important;
+}
+
+.genn-container-mobile{
+    display: none;
+}
+.genn-EmeraldKitchen{
+    background-color:#F5F5F7;
+}
+.genn-EmeraldKitchen-TextComponent {
+    padding-top: 41px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.genn-EmeraldKitchen-TextComponent-buttons {
+    display: flex;
+    gap: 26px;
+}
+
+.genn-EmeraldKitchen-TextComponent button.genn-Baner-button-v1 {
+    border: 1px solid #000;
+}
+
+.genn-EmeraldKitchen-TextComponent-des {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: #111;
+    width: 760px;
+    padding-bottom: 53px;
+}
+
+
+/* for pc */
+.genn-feelwarm-text {
+    color: #677369;
+    text-align: center;
+    -webkit-text-stroke-color: #667268;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 14px;
+    padding-bottom: 42px;
+}
+
+.genn-feelwarm-buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+.genn-Feelwarm-forBc {
+    display: flex;
+    height: 100%;
+}
+
+.genn-Feelwarm-forBc-image1 {
+    width: 35%;
+}
+
+.genn-Feelwarm-forBc-image2 {
+    width: 16%;
+}
+
+.genn-Feelwarm-forBc-imagesBox {
+    width: 12%;
+}
+
+.genn-Feelwarm-forBc-image3 {
+    width: 34%;
+}
+
+.genn-Feelwarm-forBc {
+    justify-content: space-between;
+}
+
+
+.genn-Feelwarm-forBc-imagesBox-image1 {
+    width: 100%;
+    height: 47%;
+}
+
+.genn-Feelwarm-forBc-imagesBox-omage2 {
+    width: 100%;
+    height: 47%;
+}
+.genn-Feelwarm-forBc {
+    display: flex;
+    height: 100%;
+}
+
+.genn-Feelwarm-forBc-image1 {
+    width: 35%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.genn-Feelwarm-forBc-image2 {
+    width: 16%;
+    border-radius: 20px;
+}
+
+.genn-Feelwarm-forBc-imagesBox {
+    width: 12%;
+}
+
+.genn-Feelwarm-forBc-image3 {
+    width: 34%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.genn-Feelwarm-forBc {
+    justify-content: space-between;
+    padding-top: 76px;
+}
+
+.genn-Feelwarm-forBc-imagesBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+}
+
+.genn-Feelwarm-forBc-imagesBox-image1 {
+    width: 100%;
+    height: 47%;
+    border-radius: 20px;
+}
+
+.genn-Feelwarm-forBc-imagesBox-omage2 {
+    width: 100%;
+    height: 47%;
+    border-radius: 20px;
+}
+.genn-feelwarm-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.genn-feelwarm-image {
+    overflow: hidden;
+}
+/* for mob*/
+.feelwarm-button {
+    display: flex;
+    justify-content: center;
+    padding: 55px 0 40px 0;
+}
+.genn-container-mobile {
+  
+    padding: 19px 13px 0 13px;
+}
+
+.genn-text-feelwarm {
+    color: #677369;
+    text-align: center;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #667268;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 15px;
+}
+.genn-container-mobile {
+  
+    padding: 19px 13px 0 13px;
+}
+.feelwarm-container-main {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.feelwarm-container.feelwarm-container-1 {
+    width: 48%;
+    height: 100%;
+
+}
+
+.feelwarm-container.feelwarm-container-2 {
+
+    width: 48%;
+    height: 100%;
+}
+
+.feelwarm-container-image.feelwarm-container-image-1 {
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+}
+
+.feelwarm-container-image-1-image-first {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 48%;
+    justify-content: space-between;
+}
+
+.feelwarm-container-image-1-image-first-1 {
+    
+    width: 100%;
+    height: 48%;
+}
+
+.feelwarm-container-image-1-image-first-2 {
+    width: 100%;
+    height: 48%;
+  
+}
+
+.feelwarm-container-image-1-image-second {
+    width: 48%;
+
+}
+
+.feelwarm-container-image.feelwarm-container-image-2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    gap: 4%;
+}
+
+.feelwarm-container-image-a{
+    width: 48%;
+
+    height: 48%;
+}
+.feelwarm-container-main img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.feelwarm-container-image.feelwarm-container-image-1 , .feelwarm-container-image.feelwarm-container-image-2{
+    height: 335px;
+}
+
+@media (min-width: 1440px)  {
+    .genn-EmeraldKitchen-TextComponent-des {
+        width: 760px !important;
+        padding-bottom: 45px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .genn-EmeraldKitchen-TextComponent-des {
+        width: 580px !important;;
+        padding-bottom: 45px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-EmeraldKitchen-TextComponent-des {
+        width: 580px !important;;
+        padding-bottom: 45px;
+    }
+/* for feel warm */
+
+    .genn-container-forPc {
+        display: none;
+    }
+    .genn-advantageskitchen-category {
+        display: none;
+    }
+    .genn-advantageskitchen {
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-advantageskitchen-ImageCategoryKitchen{
+        display: block;
+    }
+    .genn-advantageskitchen {
+        padding-top: 0;
+        padding: 10px 34px 0 34px;
+    }
+    
+   
+    
+    
+    .genn-container-mobile{
+        display: block;
+    }
+  
+    .genn-EmeraldKitchen-TextComponent-des {
+        width: 336px ;
+        padding-bottom: 45px;
+    }
+    .genn-EmeraldKitchen-TextComponent-buttons {
+        gap: 20px;
+    }
+/* for feel warm */
+
+    .genn-container-forPc {
+        display: none;
+    }
+    .feelwarm-container-main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .feelwarm-container.feelwarm-container-1 {
+        width: 100%;
+        padding-bottom: 19px;
+    }
+    
+    .feelwarm-container.feelwarm-container-2 {
+        width: 100%;
+    }
+    
+    .genn-VideoBgButton-buttonContainer {
+        top: 89% !important;
+    }
+    .genn-advantageskitchen-category {
+        display: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-advantageskitchen-ImageCategoryKitchen{
+        display: block;
+    }
+    .genn-advantageskitchen {
+        padding-top: 0;
+        padding: 10px 17px 0 17px;
+    }
+    
+    .genn-EmeraldKitchen-TextComponent-des {
+        width: 336px;
+        padding-bottom: 45px;
+    }
+    .genn-EmeraldKitchen-TextComponent-buttons {
+        gap: 10px;
+    }
+/* for feel warm */
+
+    .genn-container-forPc {
+        display: none;
+    }
+    .genn-container-mobile{
+        display: block;
+    }
+    .feelwarm-container-main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .feelwarm-container.feelwarm-container-1 {
+        width: 100%;
+        padding-bottom: 19px;
+    }
+    
+    .feelwarm-container.feelwarm-container-2 {
+        width: 100%;
+    }
+    
+    .genn-VideoBgButton-buttonContainer {
+        top: 89% !important;
+    }
+    .genn-advantageskitchen-category {
+        display: none;
+    }
+}
+
+@media  (max-width: 374px) {
+    .genn-advantageskitchen-ImageCategoryKitchen{
+        display: block;
+    }
+    .genn-advantageskitchen {
+        padding-top: 0;
+        padding: 10px 17px 0 17px;
+    }
+    .genn-EmeraldKitchen-TextComponent-des {
+        width: 336px;
+        padding-bottom: 45px;
+    }
+    .genn-EmeraldKitchen-TextComponent-buttons {
+        gap: 10px;
+    }
+/* for feel warm */
+    .genn-container-forPc {
+        display: none;
+    }
+    .genn-container-mobile{
+        display: block;
+    }
+    .feelwarm-container-main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .feelwarm-container.feelwarm-container-1 {
+        width: 100%;
+        padding-bottom: 19px;
+    }
+    
+    .feelwarm-container.feelwarm-container-2 {
+        width: 100%;
+    }
+    
+    .genn-VideoBgButton-buttonContainer {
+        top: 89% !important;
+    }
+    .genn-advantageskitchen-category {
+        display: none;
+    }
+}

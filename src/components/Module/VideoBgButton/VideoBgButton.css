@@ -1,0 +1,110 @@
+.genn-VideoBgButton {
+    position: relative;
+}
+
+.genn-VideoBgButton-buttonContainer {
+    position: absolute;
+    top: 72%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+.genn-VideoBgButton-text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: #fff;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 0.8;
+    font-style: normal;
+    line-height: normal;
+}
+
+.genn-VideoBgButton-buttonContainer button {
+    border: none;
+}
+
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .genn-VideoBgButton-text {
+        width: 300px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-VideoBgButton-text {
+        width: 300px;
+        text-align: center;
+    }
+    .genn-VideoBgButton-buttonContainer {
+        top: 94%;
+    }
+
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-VideoBgButton-text {
+        width: 300px;
+        text-align: center;
+    }
+    .genn-VideoBgButton-buttonContainer {
+        top: 94%;
+    }
+    .genn-VideoBgButton-text {
+        font-size: 17px;
+    }
+    
+    .genn-VideoBgButton-buttonContainer {
+        top: 98%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-VideoBgButton-text {
+        width: 300px;
+        text-align: center;
+    }
+    .genn-VideoBgButton-buttonContainer {
+        top: 94%;
+    }
+    .genn-VideoBgButton-text {
+        font-size: 17px;
+    }
+    
+    .genn-VideoBgButton-buttonContainer {
+        top: 98%;
+    }
+    .genn-VideoBgButton-buttonContainer {
+        width: 220px;
+    }
+    
+}
+
+@media  (max-width: 374px) {
+    .genn-VideoBgButton-text {
+        width: 300px;
+        text-align: center;
+    }
+    .genn-VideoBgButton-buttonContainer {
+        top: 94%;
+    }
+    .genn-VideoBgButton-text {
+        font-size: 17px;
+    }
+    
+    .genn-VideoBgButton-buttonContainer {
+        top: 98%;
+    }
+    .genn-VideoBgButton-buttonContainer {
+        width: 220px;
+    }
+    
+}

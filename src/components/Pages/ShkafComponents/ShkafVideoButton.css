@@ -1,0 +1,158 @@
+.genn-ShkafVideoButton-title {
+    font-size: 30px;
+    font-family: 'sf-pro-semi';
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    padding: 18px 0 30px 0;
+}
+
+.genn-shkafVideoButton {
+    background: #fff;
+}
+
+span.genn-ShkafVideoButton-title-span1 {
+    background: linear-gradient(90deg, #C2705F 0%, #8AA5D2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.genn-ShkafVideoButton-bottom {
+    padding: 33px 0 43px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.genn-ShkafVideoButton-bottom-title {
+    color: #2E2E30;
+    font-family: 'sf-pro-semi';
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 23px;
+}
+
+.genn-ShkafVideoButton-bottom-des {
+    font-size: 14px;
+    color: #86868B;
+    font-family: 'sf-pro-semi';
+    width: 770px;
+    text-align: center;
+}
+
+.genn-ShkafVideoButton-bottom-buttonContainer {
+    padding-top: 30px;
+}
+
+.genn-ShkafVideoButton-bottom-button {
+    border-radius: 19.5px;
+    background: linear-gradient(90deg, #C3705F 0%, #8AA5D3 100%);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 178px;
+    height: 36px;
+
+}
+
+.genn-shkafVideoButton .genn-Baner-button-container.genn-fl-row {
+    display: none;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+ 
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-shkafVideoButton .genn-ShkafVideoButton-bottom-des {
+        width: 503px;
+}
+
+ 
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-shkafVideoButton  .genn-Baner-video video{
+        min-height: 320px ;
+    }
+    .genn-ShkafVideoButton-bottom {
+        align-items: start;
+    }
+    
+    .genn-ShkafVideoButton-bottom-des {
+        width: 336px;
+        text-align: start;
+    }
+    
+    .genn-ShkafVideoButton-bottom {
+        padding: 22px;
+    }
+    
+    .genn-ShkafVideoButton-bottom-buttonContainer {
+        align-self: center;
+    }
+    .genn-shkafVideoButton  .banner {
+        
+        right: 3px;
+        top: 6px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-shkafVideoButton  .genn-Baner-video video{
+        min-height: 233px ;
+    }
+    .genn-ShkafVideoButton-bottom {
+        align-items: start;
+    }
+    .genn-ShkafVideoButton-bottom-des {
+        width: 312px;
+        text-align: start;
+    }
+    .genn-ShkafVideoButton-bottom {
+        padding: 17px;
+    }
+    
+    .genn-ShkafVideoButton-bottom-buttonContainer {
+        align-self: center;
+    }
+    .genn-shkafVideoButton  .banner {
+        
+        right: 3px;
+        top: 6px;
+    }
+}
+
+@media  (max-width: 375px) {
+    .genn-shkafVideoButton  .genn-Baner-video video{
+        min-height: 233px ;
+    }
+    .genn-shkafVideoButton  .banner {
+        
+        right: 3px;
+        top: 6px;
+    }
+    .genn-ShkafVideoButton-bottom {
+        align-items: start;
+    }
+    .genn-ShkafVideoButton-bottom-des {
+        width: 312px;
+        text-align: start;
+    }
+    .genn-ShkafVideoButton-bottom {
+        padding: 17px;
+    }
+    
+    .genn-ShkafVideoButton-bottom-buttonContainer {
+        align-self: center;
+    }
+}

@@ -1,0 +1,53 @@
+.custom-dropup-select {
+    position: relative;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .cloud2.night {
+    top: 8%;
+    right: 14%;
+}
+
+.cloud3.night {
+    top: 18%;
+    right: 30px;
+}
+  .custom-dropup-select-trigger {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .custom-dropup-select-options {
+    position: absolute;
+    width: 100%;
+  
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-dropup-select-option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .custom-dropup-select-option:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+  .custom-dropup-select-option.active {
+   
+    color: #000;
+  }
+  .custom-dropup-select-option:hover {
+    background-color: #e0e0e0;
+  }
+  .custom-dropup-select-options.dropdown {
+    bottom: 0;
+}

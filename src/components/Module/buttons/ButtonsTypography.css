@@ -1,0 +1,226 @@
+/* Стили страницы Типография НАЧАЛО! */
+.TypographyName:before, .TypographyValue:before, .TypographyClass:before {
+    display: block;
+    width: auto;
+    color: #008908;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    line-height: 1;
+    background: #bdebbf;
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 0 5px;
+}
+.TypographyClass:before {
+    content: "Class";
+    
+}
+.TypographyValue:before {
+    content: "Внешний вид";
+    
+}
+.TypographyName:before {
+    content: "Название";
+    
+}
+button.Buttons-Typography {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background: #ff5a00;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+.Typography-row {
+    display: flex;
+    gap: 15px;
+}
+.Typography-row {    
+    gap: 5px;
+    padding: 10px;
+    background: #8c8c8c;
+    border-radius: 15px;
+}
+.Typography-col {
+    border: 1px solid #ddd;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background: #fff;
+    position: relative;
+}
+.Typography-table .Typography-row {
+    margin-bottom: 15px;
+}
+.Typography-table {
+    padding: 15px;
+}
+.Typography-table-color {
+    padding: 15px;
+}
+
+.Typography-row-color {
+    background: #dfefff;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.Typography-col-color {
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+@media (max-width: 576px) {
+    .Typography-row {
+        display: flex;
+        flex-direction: column;
+        
+    }  
+  }
+/* Стили страницы Типография ОКОНЧАНИЕ! */
+
+
+
+/* Стили кнопок для сайта НАЧАЛО! */
+.genn-button-gradient{  
+    background: linear-gradient(90deg, #FF5A00 0%, rgba(240, 137, 102, 0.96) 47.32%, #8AA5D3 100%);
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+    padding: 14px 28px;
+    line-height: 1;
+    font-family: Inter;
+    font-size: 12px;
+}
+.genn-Baner-button-v1 {
+    background: var(--button-1-bg);
+    padding: 11px 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: var(--button-1-text);
+    font-size: 12px;
+    font-family: Inter;
+  }
+ .genn-Baner-button-v2 {
+    background: var(--button-2-bg);
+    padding: 11px 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: var(--button-2-text);
+    font-size: 12px;
+    font-family: Inter;
+}
+.genn-Baner-button-v2-1 {
+    background: var(--button-2-bg);
+    padding: 11px 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: var(--button-2-text);
+    font-size: 12px;
+    font-family: Inter;
+    border: 1px solid #fff;
+}
+.genn-Baner-button-v3 {
+    background: var(--header-bg-button);
+    padding: 7px 18px;
+    border-radius: 50px;
+    color: var(--header-text-button);
+    font-size: 12px;
+    font-family: Inter;
+}
+.genn-Baner-button-v3-1 {
+    background: var(--header-bg-button);
+    padding: 11px 21px;
+    border-radius: 50px;
+    color: var(--header-text-button);
+    font-size: 12px;
+    font-family: Inter;
+}
+
+.genn-Baner-button-v4 {
+    background: #EEECEA;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Inter;
+    opacity: 0.77;
+    padding: 12px 22px;
+    border-radius: 50px;
+    min-width: 130px;
+}
+
+.genn-Baner-button-v5 {
+    background: var(--button-1-bg);
+    padding: 11px 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: var(--button-1-text);
+    font-size: 12px;
+    font-family: Inter;
+    border: 1px solid #000;    
+}
+
+.genn-Baner-button-v6 {
+    background: #627867;
+    color: #ffffff;
+    padding: 11px 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 12px;
+    font-family: Inter;
+}
+
+  /* Стили кнопок для сайта ОКОНЧАНИЕ! */
+  
+  @media (min-width: 1440px) and (max-width: 1919px) {
+ 
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1439px) {
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    
+    
+  }
+  
+  @media (min-width: 414px) and (max-width: 767px) {
+ 
+  
+  }
+  
+  @media (min-width: 375px) and (max-width: 413px) {
+ 
+  }
+  @media  (max-width: 374px) {
+
+  }
+
+  @media (max-width: 576px) {
+   
+  }

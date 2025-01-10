@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: it-genn.ru -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500px" height="500px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 31.106 31.106"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="https://it-genn.ru">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:white;stroke-width:0.6;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil0 {fill:none;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="genn-art_x0020_1">
+  <metadata id="it-genn-ru-Layer"/>
+  <g id="_2440847176800">
+   <path class="fil0 str0" d="M3.535 2.8l24.036 0c0.454,0 0.822,0.368 0.822,0.822l0 23.862c0,0.454 -0.368,0.822 -0.822,0.822l-24.036 0c-0.454,0 -0.822,-0.368 -0.822,-0.822l0 -23.862c0,-0.454 0.368,-0.822 0.822,-0.822zm7.738 0l0 25.506m8.56 -25.506l0 25.506"/>
+   <rect class="fil1" width="31.106" height="31.106"/>
+  </g>
+ </g>
+</svg>

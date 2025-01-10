@@ -1,0 +1,265 @@
+.genn-Footer-firstSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #f5f5f7;
+  /* EEECEA */
+}
+.genn-Footer-logo-container {
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #f5f5f7;
+  margin-top: 35px;
+  padding: 11px 140px 25px 140px;
+}
+.genn-Footer-logo img {
+  width: 112px;
+  height: 28px;
+}
+.genn-footer-subLogo {
+  font-size: 7px;
+}
+.genn-Footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  background-color: red !important;
+}
+.genn-Footer-ico-contact-container img {
+  width: 50px;
+  height: 50px;
+}
+.genn-Footer-ico-bay-conatiner img {
+  width: 100px;
+  height: 70px;
+}
+.genn-Footer-ico-contact-container {
+  gap: 24px;
+}
+
+.genn-Footer-title {
+  margin-bottom: 20px;
+}
+
+.genn-Footer-description {
+  margin: 40px 0 10px 0;
+}
+
+.genn-Footer-ico-bay-conatiner {
+  gap: 40px;
+}
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .genn-Footer-ico-bay-conatiner {
+    gap: 10px;
+  }
+
+  .genn-Footer-ico-bay-conatiner img {
+    width: 80px;
+  }
+
+  .genn-Footer-ico-contact-container img {
+    width: 44px;
+  }
+
+  .footer {
+    padding-bottom: 0;
+  }
+
+  .genn-Footer-logo-container {
+    padding: 11px 97px 41px 97px;
+    color: #f5f5f7;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .genn-Footer-ico-bay-conatiner {
+    gap: 10px;
+  }
+
+  .genn-Footer-ico-bay-conatiner img {
+    width: 80px;
+  }
+
+  .genn-Footer-ico-contact-container img {
+    width: 69px;
+  }
+
+  .footer {
+    padding-bottom: 0;
+  }
+
+  .genn-Footer-logo-container {
+    padding: 11px 97px 41px 97px;
+    color: #f5f5f7;
+    font-size: 12px;
+  }
+  .genn-Footer-description {
+    font-size: 13px;
+  }
+
+  .genn-Footer-title {
+    font-size: 13px;
+  }
+
+  .genn-Footer-ico-contact-container img {
+    width: 29px;
+  }
+
+  .genn-Footer-ico-contact-container {
+    gap: 7px;
+  }
+
+  .genn-Footer-ico-contact-container img {
+    width: 44px;
+  }
+
+  .genn-Footer-ico-bay-conatiner img {
+    width: 75px;
+  }
+  .genn-footer-subLogo {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .genn-Footer-ico-contact-container {
+    gap: 56px;
+  }
+
+  .genn-Footer-ico-contact-container img {
+    width: 53px;
+  }
+
+  .genn-Footer-ico-bay-conatiner img {
+    width: 69px;
+  }
+
+  .genn-Footer-ico-bay-conatiner {
+    gap: 64px;
+  }
+
+  .genn-Footer-logo-container {
+    padding: 11px 65px 40px 65px;
+  }
+
+  .footer {
+    padding-bottom: 0;
+  }
+
+  .genn-Footer-description {
+    font-size: 13px;
+  }
+
+  .genn-Footer-title {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 768px) {
+  .genn-Footer-ico-contact-container {
+    gap: 8px;
+  }
+
+  .genn-Footer-ico-contact-container img {
+    width: 53px;
+  }
+
+  .genn-Footer-ico-bay-conatiner img {
+    width: 60px;
+  }
+
+  .genn-Footer-ico-bay-conatiner {
+    gap: 8px;
+  }
+
+  .genn-Footer-logo-container {
+    padding: 11px 19px 22px 19px;
+    font-size: 10px;
+  }
+
+  .footer {
+    padding-bottom: 0;
+  }
+
+  .genn-Footer-description {
+    font-size: 13px;
+  }
+
+  .genn-Footer-title {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+  .genn-Footer-ico-contact-container {
+    gap: 8px;
+  }
+
+  .genn-Footer-ico-contact-container img {
+    width: 35px;
+  }
+
+  .genn-Footer-ico-bay-conatiner img {
+    width: 42px;
+  }
+
+  .genn-Footer-ico-bay-conatiner {
+    gap: 8px;
+  }
+
+  .genn-Footer-logo-container {
+    padding: 11px 19px 22px 19px;
+    font-size: 10px;
+  }
+
+  .footer {
+    padding-bottom: 0;
+  }
+
+  .genn-Footer-description {
+    font-size: 13px;
+  }
+
+  .genn-Footer-title {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .genn-Footer-ico-contact-container {
+    gap: 8px;
+  }
+
+  .genn-Footer-ico-contact-container img {
+    width: 35px;
+  }
+
+  .genn-Footer-ico-bay-conatiner img {
+    width: 42px;
+  }
+
+  .genn-Footer-ico-bay-conatiner {
+    gap: 8px;
+  }
+
+  .genn-Footer-logo-container {
+    padding: 11px 19px 22px 19px;
+    font-size: 10px;
+  }
+
+  .footer {
+    padding-bottom: 0;
+  }
+
+  .genn-Footer-description {
+    font-size: 13px;
+  }
+
+  .genn-Footer-title {
+    font-size: 13px;
+  }
+}

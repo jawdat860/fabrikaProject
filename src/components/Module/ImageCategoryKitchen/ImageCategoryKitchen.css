@@ -1,0 +1,91 @@
+.genn-EmeraldKitchen-TextComponent-des {
+    width: 336px;
+    padding-bottom: 45px;
+}
+
+.genn-ImageCategoryKitchen {
+    display: flex;
+}
+
+.genn-ImageCategoryKitchen-first {
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.genn-ImageCategoryKitchen-second {
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.genn-ImageCategoryKitchen img {
+    width: 100%;
+}
+
+.genn-ImageCategoryKitchen {
+    padding-right: 30px;
+    padding-left: 30px;
+    gap: 75px;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .genn-ImageCategoryKitchen {
+        padding-right: 40px;
+        padding-left: 40px;
+        gap: 34px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-ImageCategoryKitchen {
+        padding-right: 27px;
+        padding-left: 27px;
+        gap: 21px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-ImageCategoryKitchen-second {
+        display: none;
+    }
+    .genn-ImageCategoryKitchen-first {
+        width: 100%;
+    }
+    .genn-ImageCategoryKitchen {
+        padding-right: 38px;
+        padding-left: 38px;
+    
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-ImageCategoryKitchen-second {
+        display: none;
+    }
+    .genn-ImageCategoryKitchen-first {
+        width: 100%;
+    }
+    .genn-ImageCategoryKitchen {
+        padding-right: 18px;
+        padding-left: 18px;
+    
+    }
+}
+
+@media  (max-width: 374px) {
+    .genn-ImageCategoryKitchen-second {
+        display: none;
+    }
+    .genn-ImageCategoryKitchen-first {
+        width: 100%;
+    }
+    .genn-ImageCategoryKitchen {
+        padding-right: 11px;
+        padding-left: 11px;
+    
+    }
+}

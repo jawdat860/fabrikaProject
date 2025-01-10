@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: it-genn.ru -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500px" height="500px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21.891 21.891"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="https://it-genn.ru">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:white;stroke-width:0.5;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="genn-art_x0020_1">
+  <metadata id="it-genn-ru-Layer"/>
+  <g id="_2477839852544">
+   <path class="fil0 str0" d="M19.328 19.921l-16.765 0c-0.36,0 -0.654,-0.294 -0.654,-0.654 0,-5.548 0,-11.095 0,-16.643 0,-0.36 0.294,-0.654 0.654,-0.654l16.765 0c0.36,0 0.654,0.294 0.654,0.654l0 6.245 -12.909 0 0 4.154 12.255 0c0.36,0 0.654,0.293 0.654,0.653l0 5.591c0,0.36 -0.294,0.654 -0.654,0.654zm-15.917 -10.169l2.16 0c0.32,0 0.579,0.26 0.579,0.579l0 0.342c0,0.32 -0.259,0.579 -0.579,0.579l-2.16 0c-0.32,0 -0.579,-0.259 -0.579,-0.579l0 -0.342c0,-0.319 0.259,-0.579 0.579,-0.579zm10.545 1.752c0,-0.319 -0.229,-0.582 -0.506,-0.582 -0.277,0 -0.506,0.263 -0.506,0.582m1.012 0l0 1.459m-6.883 -10.993l0 6.899 -5.164 0m5.164 4.154l0 6.898m12.909 -0.819l-18.073 0m5.164 -6.909l-5.164 0m5.164 3.597l-5.164 0m9.467 -2.767l0 6.898m4.303 -6.898l0 6.898m-4.303 -17.951l0 6.899m4.303 -6.899l0 6.899m-12.26 4.148l2.144 0c0.32,0 0.579,0.259 0.579,0.579l0 0.921c0,0.32 -0.259,0.579 -0.579,0.579l-2.144 0c-0.32,0 -0.579,-0.259 -0.579,-0.579l0 -0.921c0,-0.32 0.259,-0.579 0.579,-0.579z"/>
+   <rect class="fil0" width="21.891" height="21.891"/>
+  </g>
+ </g>
+</svg>
