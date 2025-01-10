@@ -18,11 +18,12 @@
 .genn-TextComponentKitchen-description {
     color: black;
     font-family: Inter;
-    width: 820px;
+    max-width: 820px;
     text-align: center;
     line-height: normal;
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 30px; 
 }
 
 .genn-TextComponentKitchen {
@@ -75,7 +76,8 @@
 
 @media (min-width: 414px) and (max-width: 767px) {
     .genn-TextComponentKitchen-description {
-        width: 285px;
+        padding: 0 50px;
+
     }
     
     .genn-TextComponentKitchen-description2 {

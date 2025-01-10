@@ -1,0 +1,47 @@
+.genn-LoadingComponent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e5e7eb; /* Light gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it overlays other content */
+  }
+  
+  .genn-LoadingComponent div {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-color: #6b7280; /* Gray tone */
+    border-radius: 50%;
+    animation: bounce 1.5s infinite ease-in-out;
+  }
+  
+  .genn-LoadingComponent-1 {
+    animation-delay: -0.3s;
+  }
+  
+  .genn-LoadingComponent-2 {
+    animation-delay: -0.15s;
+  }
+  
+  .genn-LoadingComponent-3 {
+    animation-delay: 0s;
+  }
+  
+  .genn-LoadingComponent-4 {
+    animation-delay: 0.15s;
+  }
+  
+  @keyframes bounce {
+    0%, 80%, 100% {
+      transform: scale(0);
+    }
+    40% {
+      transform: scale(1);
+    }
+  }
+  

@@ -1,0 +1,121 @@
+
+.genn-templateCardV1-CardsContainer {
+    overflow: hidden;
+}
+.genn-templateCardV1-CardsContainer.genn-Prikhozhie {
+    display: none ;
+}
+
+.genn-GategoryCardPrikhozhie {
+    display: flex;
+    gap: 93px;
+    width: 999px;
+}
+
+.genn-GategoryCardPrikhozhie-container {
+    padding-top: 120px;
+    padding-bottom: 79px;
+    display: flex;
+    background-color: #111111;
+    align-items: center;
+    justify-content: center;
+}
+.genn-ComponentVideoPhoto .genn-Baner-button-container{
+    display: none;
+}
+
+.genn-GategoryCardPrikhozhie .genn-templateCardV1-card-title {
+    border-radius: 0px 0px 30px 30px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) -42.37%, rgba(0, 0, 0, 0.27) 99.67%);
+    min-height: 265px;
+}
+
+.genn-GategoryCardPrikhozhie .genn-templateCardV1-card-title-des {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.genn-GategoryCardPrikhozhie .genn-templateCardV1-card-title-head {
+    color: #EEECEA;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #EEECEA;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-GategoryCardPrikhozhie{
+        display: none !important;
+    }
+    .genn-templateCardV1-CardsContainer.genn-Prikhozhie{
+        display: block;
+    }
+    .genn-templateCardV1-CardsContainer.genn-Prikhozhie {
+        padding: 0 !important;
+    
+    }
+    
+    .genn-Prikhozhie .genn-CardVideoComponent-controls {
+        width: 570px;
+    }
+    
+    .genn-TemplateNexsV1-CardVideoComponent-controls .genn-CardVideoComponent-controls {
+        width: 570px;
+    }
+    
+    .genn-Prikhozhie .genn-templateCardV1-card-title {
+        min-height: 218px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-GategoryCardPrikhozhie{
+        display: none !important;
+    }
+    .genn-templateCardV1-CardsContainer.genn-Prikhozhie{
+        display: block;
+    }
+    .genn-templateCardV1-CardsContainer.genn-Prikhozhie {
+        padding: 0 !important;
+    
+    }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-GategoryCardPrikhozhie{
+        display: none !important;
+    }
+    .genn-templateCardV1-CardsContainer.genn-Prikhozhie{
+        display: block;
+    }
+    .genn-templateCardV1-CardsContainer.genn-Prikhozhie {
+        padding: 0 !important;
+    
+    }
+}
+
+@media  (max-width: 374px) {
+    .genn-GategoryCardPrikhozhie{
+        display: none !important;
+    }
+    .genn-templateCardV1-CardsContainer.genn-Prikhozhie{
+        display: block;
+    }
+    .genn-templateCardV1-CardsContainer.genn-Prikhozhie {
+        padding: 0 !important;
+    
+    }
+}

@@ -10,11 +10,11 @@ import ShkafGategory from "./ShkafComponents/ShkafGategory";
 import IconsBox from "../IconsBox/IconsBox";
 import CommentsModal from "../CommentsModal/CommentsModal";
 import Footer from "../Footer/Footer";
-import video3 from "../../assets/images/bg-video/GarderobnyeN3.mp4"
+import video3 from "../../assets/images/bg-video/GarderobnyeN3.mp4";
 import { apiUrl } from "../../config";
 import CardVideoComponent from "../Module/GarderobnyeModel/CardVideoComponent";
+import LoadingComponent from "../Module/LoadingComponent/LoadingComponent";
 function Garderobnye() {
-
   const [kitchenData, setKitchenData] = useState(null);
 
   const [data, setData] = useState(null);
@@ -22,26 +22,24 @@ function Garderobnye() {
 
   useEffect(() => {
     axios
-  .get(apiUrl+"/api/prikhozhie")
-  .then((response) => {
-    if (response.data.success && response.data.data.length > 0) {
-      setData(response.data.data[0]);
-     
-    } else {
-      console.error("Unexpected API response structure", response.data);
-      setData(null);
-    }
-    setLoading(false);
-  })
-  .catch((error) => {
-    console.error("Error fetching data:", error);
-    setLoading(false);
-  });
-
+      .get(apiUrl + "/api/prikhozhie")
+      .then((response) => {
+        if (response.data.success && response.data.data.length > 0) {
+          setData(response.data.data[0]);
+        } else {
+          console.error("Unexpected API response structure", response.data);
+          setData(null);
+        }
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+        setLoading(false);
+      });
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <LoadingComponent />;
   }
 
   if (!data) {
@@ -54,7 +52,11 @@ function Garderobnye() {
         id="genn-kitchen-Banner"
         className="genn-Baner-container kitchenBanerBlock"
       >
-        <Baner v videoBg={"https://l.okdeal.ru/storage/" + data.video_url} videoBg2={video2} />
+        <Baner
+          v
+          videoBg={"https://l.okdeal.ru/storage/" + data.video_url}
+          videoBg2={video2}
+        />
       </div>
       <div className="genn-Text-container  PrikhozhieTextbottom">
         <TextComponentbottom
@@ -66,14 +68,14 @@ function Garderobnye() {
         />{" "}
       </div>
       <div className="genn-SliderBaner-container genn-Prikhozhie-SliderBaner ">
-      <SliderBaner images={data.image_slider } />
+        <SliderBaner images={data.image_slider} />
       </div>
       <div className="genn-SliderImg genn-shkaf-img Prikhozhie ">
-      <ShkafGategory categorySlide={data.category}/>
+        <ShkafGategory categorySlide={data.category} />
       </div>
       <CardVideoComponent />
       <div id="genn-IconsBox" className="genn-IconsBox genn-kitchen-IconsBox">
-      <IconsBox iconsData={data.icons}/>
+        <IconsBox iconsData={data.icons} />
       </div>
       <div
         id="genn-CommentsModal"
@@ -81,7 +83,7 @@ function Garderobnye() {
       >
         <CommentsModal reviews={data.video_reviews} />
       </div>
-     
+
       <footer className="footer">
         <Footer />
       </footer>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { LocalText } from "../../LocalText/LocalText";
 import SliderImgComponent from "../../Module/SliderImg/SliderImgComponent";
-
+import "./ShkafGategory.css";
 function ShkafGategory({ categorySlide }) {
   const [showAll, setShowAll] = useState(false); // State to toggle visibility of additional cards
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -22,7 +22,11 @@ function ShkafGategory({ categorySlide }) {
   }, []);
 
   if (!categorySlide || !Array.isArray(categorySlide)) {
-    return <div>{LocalText.Kitchen.Category.noData || "Нет данных для отображения"}</div>;
+    return (
+      <div>
+        {LocalText.Kitchen.Category.noData || "Нет данных для отображения"}
+      </div>
+    );
   }
 
   return (
@@ -42,16 +46,18 @@ function ShkafGategory({ categorySlide }) {
         ))}
       </div>
 
-      {!isSmallScreen && (
-        <div className="show-more-container">
-          <button
-            className="genn-show-more-button"
-            onClick={() => setShowAll((prev) => !prev)}
-          >
-            {showAll ? "Show Less" : "Show More"}
-          </button>
-        </div>
-      )}
+      {!isSmallScreen &&
+        categorySlide.length >
+          3 &&(
+            <div className="show-more-container">
+              <button
+                className="genn-show-more-button"
+                onClick={() => setShowAll((prev) => !prev)}
+              >
+                {showAll ? "Скрыть" : "Показать больше"}
+              </button>
+            </div>
+          )}
     </>
   );
 }

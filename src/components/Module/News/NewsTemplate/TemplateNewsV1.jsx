@@ -10,9 +10,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
 import TemplateCardV1 from "../Card/templateCardV1";
 import ModelCall from "../../ModelCall/ModelCall";
+import nextImage from "../../../../assets/images/ico/Buttons/next-2.svg";
+import pley from "../../../../assets/images/ico/Buttons/pley-1.svg";
+import loading from "../../../../assets/images/ico/Buttons/loading-g.svg";
 
 function TemplateNewsV1({ descriptionSlider }) {
   const [isModalOpen2, setIsModalOpen2] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true); // Track autoplay state
+  const swiperRef = useRef(null); // Reference to Swiper instance
 
   const openModal2 = () => {
     setIsModalOpen2(true); // Open modal when button is clicked
@@ -22,47 +27,12 @@ function TemplateNewsV1({ descriptionSlider }) {
     setIsModalOpen2(false); // Close modal
   };
 
-  const swiperRef = useRef(null); // Reference to Swiper instance
-  const [isPlaying, setIsPlaying] = useState(true); // State to track autoplay status
+  const handlePrevClick = () => {
+    swiperRef.current?.slidePrev(); // Move to previous slide
+  };
 
-  const swiperBreakpoints = {
-    1920: { slidesPerView: 5, spaceBetween: 60 },
-    1440: { slidesPerView: 5 },
-    1200: { slidesPerView: 5, spaceBetween: 24 },
-    700: {
-      slidesPerView: 3,
-      slidesOffsetAfter: 100,
-      slidesOffsetBefore: 100,
-      centeredSlides: true,
-      spaceBetween: 11,
-      loop: true,
-    },
-    500: {
-      slidesPerView: 2,
-      slidesOffsetAfter: 100,
-      slidesOffsetBefore: 100,
-      centeredSlides: true,
-      spaceBetween: 11,
-      loop: true,
-    },
-    414: {
-      slidesPerView: 1.5,
-      centeredSlides: true,
-      spaceBetween: 18,
-      loop: true,
-    },
-    375: {
-      centeredSlides: true,
-      slidesPerView: 1.3,
-      spaceBetween: 10,
-      loop: true,
-    },
-    360: {
-      centeredSlides: true,
-      slidesPerView: 1.7,
-      spaceBetween: 10,
-      loop: true,
-    },
+  const handleNextClick = () => {
+    swiperRef.current?.slideNext(); // Move to next slide
   };
 
   const handlePlayPause = () => {
@@ -71,7 +41,47 @@ function TemplateNewsV1({ descriptionSlider }) {
     } else {
       swiperRef.current?.autoplay.start(); // Start autoplay
     }
-    setIsPlaying(!isPlaying);
+    setIsPlaying(!isPlaying); // Toggle playing state
+  };
+
+  const swiperBreakpoints = {
+    1920: { slidesPerView: 5, spaceBetween: 60 },
+    1440: { slidesPerView: 5 },
+    1200: { slidesPerView: 5, spaceBetween: 24 },
+    700: {
+      slidesPerView: 3,
+      slidesOffsetAfter: 50,
+      slidesOffsetBefore: 50,
+      centeredSlides: true,
+      spaceBetween: 32,
+      loop: true,
+    },
+    500: {
+      slidesPerView: "auto",
+      slidesOffsetAfter: 100,
+      slidesOffsetBefore: 100,
+      centeredSlides: true,
+      spaceBetween: 11,
+      loop: true,
+    },
+    414: {
+      slidesPerView: "auto",
+      centeredSlides: true,
+      spaceBetween: 18,
+      loop: true,
+    },
+    375: {
+      centeredSlides: true,
+      slidesPerView: "auto",
+      spaceBetween: 10,
+      loop: true,
+    },
+    360: {
+      centeredSlides: true,
+      slidesPerView: "auto",
+      spaceBetween: 15,
+      loop: true,
+    },
   };
 
   if (!Array.isArray(descriptionSlider) || descriptionSlider.length === 0) {
@@ -112,9 +122,11 @@ function TemplateNewsV1({ descriptionSlider }) {
             slidesPerView={5}
             spaceBetween={30}
             breakpoints={swiperBreakpoints}
+            autoplay={{ delay: 3000 }} // Autoplay with 3s delay
+            loop={true} // Enable looping
             navigation={{
-              prevEl: ".prev", // Custom previous button
-              nextEl: `.next`, // Custom next button
+              prevEl: ".genn-CardVideoComponent-prev", // Custom previous button
+              nextEl: ".genn-CardVideoComponent-next", // Custom next button
             }}
           >
             {descriptionSlider.map((item) => (
@@ -128,31 +140,37 @@ function TemplateNewsV1({ descriptionSlider }) {
               </SwiperSlide>
             ))}
           </Swiper>
-
-          {/* Play/Pause Button */}
-          <div className="genn-templateCardV1-controls">
-            <div className="grnn-prev-next">
-              <div className="prev">
-                {" "}
-                <i className="fa-solid fa-chevron-left"></i>
+          <div className="genn-TemplateNexsV1-CardVideoComponent-controls">
+            {/* Custom Navigation Controls */}
+            <div className="genn-CardVideoComponent-controls">
+              {/* Play/Pause Button */}
+              <div
+                className="genn-CardVideoComponent-play"
+                onClick={handlePlayPause}
+              >
+                <img src={isPlaying ? loading : pley} alt="Play/Pause" />
               </div>
-              <div className="next">
-                {" "}
-                <i className="fa-solid fa-chevron-right"></i>
+              {/* Prev/Next Buttons */}
+              <div className="genn-TemplateNexsV1-CardVideoComponent-buttons">
+                <div
+                  className="genn-CardVideoComponent-prev"
+                  onClick={handlePrevClick}
+                >
+                  <img src={nextImage} alt="Previous" className="!w-[35px] " />
+                </div>
+                <div
+                  className="genn-CardVideoComponent-next"
+                  onClick={handleNextClick}
+                >
+                  <img src={nextImage} alt="Next" className="!w-[35px]" />
+                </div>
               </div>
             </div>
-            <button onClick={handlePlayPause} className="genn-autoplay-toggle">
-              {isPlaying ? "Pause" : "Play"}
-            </button>
           </div>
         </div>
-
         {/* Text Section */}
         <div className="genn-templateCardV1-text">
           <div className="genn-templateCardV1-text-first">
-            {LocalText.Kitchen.KitchenCards.textUnder1}
-          </div>
-          <div className="genn-templateCardV1-text-second">
             {LocalText.Kitchen.KitchenCards.textUnder2}
           </div>
         </div>

@@ -118,6 +118,7 @@ i.fa-solid.fa-xmark {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .genn-CommentsModal-close {
@@ -769,10 +770,10 @@ i.fa-solid.fa-xmark {
   opacity: 1; /* Full opacity for active slide */
 }
 
-.genn-Model-slider-overlay .swiper-slide-prev,
-.genn-Model-slider-overlay .swiper-slide-next {
-  opacity: 0.8; /* Slightly higher opacity for prev and next slides */
+.genn-Model-slider-overlay .swiper-slide-prev, .genn-Model-slider-overlay .swiper-slide-next {
+  opacity: 0.5; /* Slightly higher opacity for prev and next slides */
 }
+
 
 .genn-CommentsModal-modal {
   background: transparent;
@@ -807,3 +808,11 @@ i.fa-solid.fa-xmark {
   width: 100%;
 }
 
+.genn-Model-slider-overlay .swiper-wrapper {
+        padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.genn-Model-slider-overlay .swiper-slide.swiper-slide-active {
+    transform: scale(1.1) !important;
+}

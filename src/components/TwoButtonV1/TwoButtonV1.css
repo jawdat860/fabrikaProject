@@ -5,7 +5,9 @@
     gap: 30px;
     background-color: var(--bannerSlider-bg);
 }
-
+.shkafComponent button.genn-Baner-button-v1{
+    border: 1px solid #000 !important;
+}
 .genn-TwoButtonV1-price {
     display: flex;
     padding: 11px 19px;

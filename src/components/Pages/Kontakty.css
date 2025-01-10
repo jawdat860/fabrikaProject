@@ -1,3 +1,33 @@
+#contact .genn-Baner-button-container.genn-fl-row{
+    display: none;
+}
+
+.genn-contact-IconBox-text {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'INTER';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 23px;
+}
+
+
+
+
+
+
+
+.genn-kontakt-contact-Model h3.genn-CommentsModal-title {
+    color: black;
+}
+
+.genn-kontakt-contact-Model .genn-CommentsModal-description {
+    color: #000;
+}
+
 
 .genn-contact-videoDes-title {
     display: none;

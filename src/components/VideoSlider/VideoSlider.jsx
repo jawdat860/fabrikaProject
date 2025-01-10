@@ -106,7 +106,9 @@ function VideoSlider() {
   return (
     <>
       <Swiper
+
         ref={swiperRef}
+
         pagination={{ clickable: true }}
         slidesPerView={5}
         breakpoints={{

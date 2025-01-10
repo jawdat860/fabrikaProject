@@ -1,0 +1,28 @@
+.shkafComponent .genn-CommentsModal {
+    background: #eeecea;
+    color: black;
+}
+.shkafComponent .genn-CommentsModal-title {
+    color: black;
+}
+.shkafComponent .genn-CommentsModal-description {
+    color: black;
+}
+.shkafComponent .genn-TwoButtonV2 {
+    background: #eeecea;
+}
+
+.shkafComponent button.genn-Baner-button-v1 {
+    border-radius: 19.5px;
+    border: 2px solid #000;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+footer.Shkaffooter .genn-Footer-firstSection {
+    background-color: #eeecea;
+    color: #000;
+}
+
+footer.Shkaffooter {
+    background-color: #eeecea;
+}

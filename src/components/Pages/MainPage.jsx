@@ -13,6 +13,7 @@ import TextComponent from "../Module/Text/TextComponent";
 import Footer from "../Footer/Footer";
 import { LocalText } from "../LocalText/LocalText";
 import { apiUrl } from "../../config";
+import LoadingComponent from "../Module/LoadingComponent/LoadingComponent";
 
 function MainPage() {
   const [data, setData] = useState(null);
@@ -20,7 +21,7 @@ function MainPage() {
 
   useEffect(() => {
     axios
-      .get(apiUrl+"/api/main-page")
+      .get(apiUrl + "/api/main-page")
       .then((response) => {
         if (response.data.success) {
           setData(response.data.data[0]);
@@ -35,7 +36,7 @@ function MainPage() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <LoadingComponent />;
   }
 
   if (!data) {
@@ -54,29 +55,26 @@ function MainPage() {
           classNameTitle={"genn-SliderBaner-text-title"}
         />
         <Baner
-          videoBg={apiUrl+`/storage/${data.video_url}` }
-          videoBg2={apiUrl+`/storage/storage/${data.video_url}` }
+          videoBg={apiUrl + `/storage/${data.video_url}`}
+          videoBg2={apiUrl + `/storage/storage/${data.video_url}`}
         />
       </div>
 
       {/* Слайдер баннеров */}
       <div id="genn-SliderBaner" className="genn-SliderBaner-container">
-        <SliderBaner images={data.image_slider } />
+        <SliderBaner images={data.image_slider} />
       </div>
 
       {/* Категории */}
       <div id="genn-Categoryes " className="genn-Categoryes">
-        <Categoryes
-          categories={data.category }
-          title={data.category_title}
-        />
+        <Categoryes categories={data.category} title={data.category_title} />
       </div>
 
       {/* Кнопки */}
       <div id="genn-TwoButtonV1">
         <TwoButtonV1 />
       </div>
-      
+
       {/* Видео слайдер */}
       <div id="genn-VideoSlider" className="genn-VideoSlider">
         <VideoSlider videosData={data.video_slider} />
@@ -84,11 +82,10 @@ function MainPage() {
 
       {/* Блок с изображением */}
       <div id="genn-ImegBox" className="genn-ImegBox">
-      <ImegBox
-            imgUrl={data.section_img || LocalText.ImegBox.img}
-            mobileImgUrl={data.section_img_mobile || LocalText.ImegBox.mobileImg}
-          />
-        
+        <ImegBox
+          imgUrl={data.section_img || LocalText.ImegBox.img}
+          mobileImgUrl={data.section_img_mobile || LocalText.ImegBox.mobileImg}
+        />
       </div>
 
       {/* Иконки */}

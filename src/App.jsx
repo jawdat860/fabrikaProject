@@ -23,6 +23,7 @@ import KitchenTop from "./components/Pages/KichenPages/KitchenTop";
 import VivaKitchen from "./components/Pages/KichenPages/VivaKitchen";
 import SmartKitchen from "./components/Pages/KichenPages/SmartKitchen";
 import { apiUrl } from "./config";
+import ScrollToTop from "./components/Module/GoToTop/ScrollToTop";
 const templates = {
   EmeraldKitchen,
   KitchenArizona,
@@ -32,13 +33,12 @@ const templates = {
 };
 
 function App() {
-
   const [kitchenRoutes, setKitchenRoutes] = useState([]);
 
   useEffect(() => {
     async function fetchKitchens() {
       try {
-        const response = await fetch(apiUrl+"/api/kitchen/list");
+        const response = await fetch(apiUrl + "/api/kitchen/list");
         const data = await response.json();
         if (data.success) {
           setKitchenRoutes(data.data);
@@ -59,28 +59,24 @@ function App() {
             <Header />
           </header>
 
-          <ButtonsTypography />
+          <ScrollToTop />
 
           {/* Routes */}
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/kitchen" element={<KitchenPage />} />
-            {/* <Route
-              path="/kitchen/EmeraldKitchen"
-              element={<EmeraldKitchen />}
-            /> */}
-           
-              {kitchenRoutes.map((route) => {
-                const Component = templates[route.template]; // Получаем компонент из объекта
-                return (
-                  <Route
-                    key={route.slug}
-                    path={`/kitchen/${route.slug}`}
-                    element={Component ? <Component /> : <div>Template Not Found</div>} // Рендерим компонент или сообщение об ошибке
-                  />
-                );
-              })}
-            
+            {kitchenRoutes.map((route) => {
+              const Component = templates[route.template]; // Получаем компонент из объекта
+              return (
+                <Route
+                  key={route.slug}
+                  path={`/kitchen/${route.slug}`}
+                  element={
+                    Component ? <Component /> : <div>Template Not Found</div>
+                  } 
+                />
+              );
+            })}
             <Route path="/kitchen/SmartKitchen" element={<SmartKitchen />} />
             <Route path="/kitchen/KitchenTop" element={<KitchenTop />} />
             <Route path="/kitchen/VivaKitchen" element={<VivaKitchen />} />

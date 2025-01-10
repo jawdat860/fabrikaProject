@@ -30,9 +30,9 @@ function SliderImgComponent({ sliderId, title, gallery }) {
         }}
         breakpoints={{
           768: { slidesPerView: 1 },
-          360: { slidesPerView: 1, spaceBetween: 10, loop: true },
-          375: { slidesPerView: 1, spaceBetween: 10, loop: true },
-          414: { slidesPerView: 1, spaceBetween: 10, loop: true },
+          360: { slidesPerView: 1.1, spaceBetween: 10, loop: true },
+          375: { slidesPerView: 1.1, spaceBetween: 10, loop: true },
+          414: { slidesPerView: 1.1, spaceBetween: 10, loop: true },
         }}
         pagination={{
           clickable: true,

@@ -1,0 +1,177 @@
+.genn-ComponentVideoPhoto {
+    display: flex;
+    background: #000;
+}
+
+.genn-ComponentVideoPhoto-title {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.genn-ComponentVideoPhoto-title1 {
+    background: linear-gradient(90deg, #675E5E -10.76%, #FFF 104.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    -webkit-text-fill-color: transparent;
+}
+.genn-ComponentVideoPhoto .genn-Baner-video {
+    width: 50%;
+}
+
+.genn-ComponentVideoPhoto-imageContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.genn-ComponentVideoPhoto-image {
+    position: relative;
+    flex: 1;
+}
+
+.genn-ComponentVideoPhoto-titleImage {
+    position: absolute;
+    color: white;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 36px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.genn-ComponentVideoPhoto-buttoncontainer {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.genn-ComponentVideoPhoto-title {
+    padding-top: 74px;
+    padding-bottom: 94px;
+}
+
+span.genn-ComponentVideoPhoto-spanImage {
+    color: #FF5A00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.genn-ComponentVideoPhoto-title.mob{
+    display: none;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+ 
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .genn-ComponentVideoPhoto-imageContainer {
+        display: none;
+    }
+    
+    .genn-ComponentVideoPhoto .genn-Baner-video {
+        width: 100%;
+    }
+    .genn-ComponentVideoPhoto-title.mob{
+        display: block;
+        padding-top: 65px;
+        padding-bottom: 29px;
+    }
+    .genn-ComponentVideoPhoto{
+        flex-direction: column;
+    }
+ 
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+
+    .genn-ComponentVideoPhoto-imageContainer {
+        display: none;
+    }
+    
+    .genn-ComponentVideoPhoto .genn-Baner-video {
+        width: 100%;
+    }
+    .genn-ComponentVideoPhoto-title1.mob {
+        font-size: 25px;
+    }
+    
+    .genn-ComponentVideoPhoto-title.mob {
+        padding-top: 25px;
+        padding-bottom: 37px;
+        display: block;
+    }
+    .genn-ComponentVideoPhoto{
+        flex-direction: column;
+    }
+ 
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-ComponentVideoPhoto-imageContainer {
+        display: none;
+    }
+    
+    .genn-ComponentVideoPhoto .genn-Baner-video {
+        width: 100%;
+    }
+    .genn-ComponentVideoPhoto-title1.mob {
+        font-size: 25px;
+    }
+    
+    .genn-ComponentVideoPhoto-title.mob {
+        padding-top: 25px;
+        padding-bottom: 37px;
+        display: block;
+    }
+    .genn-ComponentVideoPhoto{
+        flex-direction: column;
+    }
+ 
+}
+@media  (max-width: 374px) {
+    .genn-ComponentVideoPhoto-imageContainer {
+        display: none;
+    }
+    
+    .genn-ComponentVideoPhoto .genn-Baner-video {
+        width: 100%;
+    }
+    .genn-ComponentVideoPhoto-title1.mob {
+        font-size: 25px;
+    }
+    
+    .genn-ComponentVideoPhoto-title.mob {
+        padding-top: 25px;
+        padding-bottom: 37px;
+        display: block;
+    }
+    .genn-ComponentVideoPhoto{
+        flex-direction: column;
+    }
+ 
+}
+
+@media (max-width: 576px) {
+ 
+}

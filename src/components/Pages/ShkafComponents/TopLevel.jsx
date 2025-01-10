@@ -35,7 +35,15 @@ function TopLevel({ imageBg, title, title2, description }) {
           ></div>
         </div>
         <div className="genn-TopLevel-Text-buttonContainer">
-          <button className="genn-TopLevel-Text-button1">
+          <button
+            className="genn-TopLevel-Text-button1"
+            onClick={() => {
+              window.open(
+                "https://api.whatsapp.com/send/?phone=79585008556&text&type=phone_number&app_absent=0",
+                "_blank"
+              );
+            }}
+          >
             {LocalText.shkaf.TopLevel.buttonTiTle1}
           </button>
           <button
@@ -44,7 +52,10 @@ function TopLevel({ imageBg, title, title2, description }) {
           >
             {LocalText.shkaf.TopLevel.buttonTiTle2}
           </button>
-          <button className="genn-TopLevel-Text-button3">
+          <button
+            className="genn-TopLevel-Text-button3"
+            onClick={openModelHandler}
+          >
             {LocalText.shkaf.TopLevel.buttonTiTle3}
           </button>
         </div>

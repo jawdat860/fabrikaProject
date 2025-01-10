@@ -120,7 +120,32 @@
     line-height: normal;
     text-align: center;
 }
-
+.button-image {
+    background: black;
+    color: white;
+    display: none;
+}
+button.genn-show-more-button {
+    background: #F5F5F7;
+    display: flex;
+    width: 176px;
+    height: 39px;
+    padding: 11px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 19.5px;
+    border: 1px solid #000;
+    margin-bottom: 29px;
+    margin-top: 28px;
+}
 .genn-category-whatsApp button {
     display: flex;
     border-radius: 19.5px;
@@ -167,6 +192,7 @@ flex-shrink: 0;
   .iconBoxColor1.active-icon{
     box-shadow: 1px 1px 24px 5px #a1c192;
     outline: 2px solid #a1c192;
+    border: 2px solid white;
     transition: box-shadow 0.3s ease, outline 0.3s ease;
   }
   .iconBoxColor2{
@@ -174,7 +200,8 @@ flex-shrink: 0;
 }
 .iconBoxColor2.active-icon{
     box-shadow: 1px 1px 24px 5px #7EB0EB;
-    outline: 2px solid #7EB0EB;
+    outline: 2px solid #7EB0EB;    
+    border: 2px solid white;
     transition: box-shadow 0.3s ease, outline 0.3s ease;
   }
 .iconBoxColor3 {
@@ -182,18 +209,19 @@ flex-shrink: 0;
 }
 .iconBoxColor3.active-icon{
     box-shadow: 1px 1px 24px 5px #DA969F;
-    outline: 2px solid #DA969F;
+    outline: 2px solid #DA969F;    
+     border: 2px solid white;
     transition: box-shadow 0.3s ease, outline 0.3s ease;
   }
-
 
 .iconBoxColor4 {
     background: #AD796F;
 }
 .iconBoxColor4.active-icon{
-    box-shadow: 1px 1px 24px 5px #AD796F;
-    outline: 2px solid #AD796F;
-    transition: box-shadow 0.3s ease, outline 0.3s ease;
+     box-shadow: 1px 1px 24px 5px #AD796F;
+     outline: 2px solid #AD796F;
+     border: 2px solid white;
+     transition: box-shadow 0.3s ease, outline 0.3s ease;
   }
 
 
@@ -203,8 +231,7 @@ flex-shrink: 0;
   .iconBoxColor4 {
     
     width: 38px;
-        height: 38px;
-  
+    height: 38px;
     border-radius: 50%;
     padding: 4px;
     cursor: pointer;
@@ -256,7 +283,11 @@ flex-shrink: 0;
   }
   
   @media (min-width: 1200px) and (max-width: 1439px) {
-
+    .button-image {
+        background: black;
+        color: white;
+        display: block;
+    }
   }
   
   @media (min-width: 768px) and (max-width: 1199px) {
@@ -275,6 +306,23 @@ flex-shrink: 0;
 
    
   }
+  @media (max-width: 768px) {
+    .genn-changeColor-mob-image {
+        overflow: hidden;
+        max-height: 400px;
+    }
+    .genn-changeColor-mob-image img {
+        width: 170%;
+        max-width: 300%;
+        left: -49%;
+        position: relative;
+        top: -50px;
+    }
+   .genn-changeColor-mob button.genn-Baner-button-v4{
+        top: 65%;
+    }
+  }
+
   
 
   

@@ -18,40 +18,38 @@ import Footer from "../Footer/Footer";
 import TextComponentbottom from "../Module/Text/TextComponentbottom";
 import apiService from "../Services/apiServisc";
 import { apiUrl } from "../../config";
+import LoadingComponent from "../Module/LoadingComponent/LoadingComponent";
 function KitchenPage() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     axios
-  .get(apiUrl+"/api/kitchen")
-  .then((response) => {
-    if (response.data.success && response.data.data.length > 0) {
-      setData(response.data.data[0]);
-     
-    } else {
-      console.error("Unexpected API response structure", response.data);
-      setData(null);
-    }
-    setLoading(false);
-  })
-  .catch((error) => {
-    console.error("Error fetching data:", error);
-    setLoading(false);
-  });
-
+      .get(apiUrl + "/api/kitchen")
+      .then((response) => {
+        if (response.data.success && response.data.data.length > 0) {
+          setData(response.data.data[0]);
+        } else {
+          console.error("Unexpected API response structure", response.data);
+          setData(null);
+        }
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+        setLoading(false);
+      });
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <LoadingComponent />;
   }
 
   if (!data) {
     return <div>Error loading data</div>;
   }
 
-
-console.log('data ' + {data});
+  console.log("data " + { data });
 
   return (
     <>
@@ -68,21 +66,18 @@ console.log('data ' + {data});
         />
       </div>
       <div className="k relative">
-        <Baner
-          videoBg={apiUrl+"/storage/" + data.video_url}
-         
-        />
+        <Baner videoBg={apiUrl + "/storage/" + data.video_url} />
       </div>
       <div id="genn-kitchen-SliderBaner" className="genn-SliderBaner-container">
         <TextComponentbottom
           title={data.title_h2}
           description={data.description_text}
-        description2={LocalText.Kitchen.sliderBanner.description2}
-        titleButton={LocalText.Kitchen.sliderBanner.titleButton}
-        classNameComponent={"genn-TextComponentKitchen"}
+          description2={LocalText.Kitchen.sliderBanner.description2}
+          titleButton={LocalText.Kitchen.sliderBanner.titleButton}
+          classNameComponent={"genn-TextComponentKitchen"}
         />
-  
-    <SliderBaner images={data.image_slider } />
+
+        <SliderBaner images={data.image_slider} />
       </div>
       <div
         id="genn-Categoryes "
@@ -91,11 +86,10 @@ console.log('data ' + {data});
         <KitchenGategory />
       </div>
       <div id="genn-KitchenCards " className="genn-KitchenCards ">
-      <TemplateNewsV1 descriptionSlider={data.description_slider} />
-
+        <TemplateNewsV1 descriptionSlider={data.description_slider} />
       </div>
       <div id="genn-IconsBox" className="genn-IconsBox genn-kitchen-IconsBox">
-      <IconsBox iconsData={data.icons}/>
+        <IconsBox iconsData={data.icons} />
       </div>
       <div
         id="genn-CommentsModal"

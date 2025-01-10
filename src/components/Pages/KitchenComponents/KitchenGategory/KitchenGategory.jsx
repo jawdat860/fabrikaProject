@@ -103,8 +103,8 @@ function KitchenGategory() {
             <div className="genn-title-changePhoto">
               {LocalText.Kitchen.Category.titleChange}
             </div>
-            <button className="genn-Baner-button-v4">
-              {LocalText.Categoryes.CategoryesLinks.l4}
+            <button className="genn-Baner-button-v4 button-image">
+              Заказать звонок
             </button>
           </div>
         </div>
@@ -114,7 +114,7 @@ function KitchenGategory() {
               className="genn-show-more-button"
               onClick={() => setShowAll((prev) => !prev)}
             >
-              {showAll ? "Show Less" : "Show More"}
+              {showAll ? "Скрыть" : "Показать больше"}
             </button>
           </div>
         )}
@@ -131,25 +131,19 @@ function KitchenGategory() {
           className={`iconBoxColor2 ${
             activeIcon === "blue" ? "active-icon" : ""
           }`}
-        >
-          {/* <img src={ico1} alt={"blue"} /> */}
-        </div>
+        ></div>
         <div
           onClick={() => handleImageChange(image7, "urban")}
           className={`iconBoxColor3 ${
             activeIcon === "urban" ? "active-icon" : ""
           }`}
-        >
-          {/* <img src={ico2} alt={"urban"} /> */}
-        </div>
+        ></div>
         <div
           onClick={() => handleImageChange(image8, "orange")}
           className={`iconBoxColor4 ${
             activeIcon === "orange" ? "active-icon" : ""
           }`}
-        >
-          {/* <img src={ico3} alt={"orange"} /> */}
-        </div>
+        ></div>
       </div>
       {/* for mob part */}
 
@@ -184,11 +178,11 @@ function KitchenGategory() {
           <img
             src={currentImage}
             alt={LocalText.Categoryes.CategoryesLinks.l4}
-            className="!w-[100%]"
+            className=""
           />
 
-          <button className="genn-Baner-button-v4">
-            {LocalText.Categoryes.CategoryesLinks.l4}
+          <button className="genn-Baner-button-v4 genn-button-image-phone">
+            Заказать звонок
           </button>
         </div>
         <div className="genn-changeColor-mob-icon">
@@ -197,33 +191,25 @@ function KitchenGategory() {
             className={`iconBoxColor1 ${
               activeIcon === "green" ? "active-icon" : ""
             }`}
-          >
-            <img src={ico} alt={"green"} />
-          </div>
+          ></div>
           <div
             onClick={() => handleImageChange(image10, "blue")}
             className={`iconBoxColor2 ${
               activeIcon === "blue" ? "active-icon" : ""
             }`}
-          >
-            <img src={ico1} alt={"blue"} />
-          </div>
+          ></div>
           <div
             onClick={() => handleImageChange(image7, "urban")}
             className={`iconBoxColor3 ${
               activeIcon === "urban" ? "active-icon" : ""
             }`}
-          >
-            <img src={ico2} alt={"urban"} />
-          </div>
+          ></div>
           <div
             onClick={() => handleImageChange(image8, "orange")}
             className={`iconBoxColor4 ${
               activeIcon === "orange" ? "active-icon" : ""
             }`}
-          >
-            <img src={ico3} alt={"orange"} />
-          </div>
+          ></div>
         </div>
       </div>
     </>

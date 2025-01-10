@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import MultiStepForm from "../../Pages/MultiStepForm/MultiStepForm";
 
 function TextComponentbottom({
   title,
@@ -22,23 +23,40 @@ function TextComponentbottom({
       });
   }, []);
 
-  console.log(data);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true); // Open modal when button is clicked
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false); // Close modal
+  };
 
   return (
-    <div className={`${classNameComponent}`}>
-      <div className={`${classNameComponent}-title`}>{title}</div>
-      <div dangerouslySetInnerHTML={{ __html: description }} className={`${classNameComponent}-description `}>
-        
+    <>
+      <div className={`${classNameComponent}`}>
+        <div className={`${classNameComponent}-title`}>{title}</div>
+        <div
+          dangerouslySetInnerHTML={{ __html: description }}
+          className={`${classNameComponent}-description `}
+        ></div>
+
+        <div
+          className={`${classNameComponent}-buttonContainer  genn-Baner-button-v5`}
+        >
+          <button
+            className={`${classNameComponent}-buttonContainer-button`}
+            onClick={openModal}
+          >
+            {titleButton}
+          </button>
+        </div>
       </div>
-      
-      <div
-        className={`${classNameComponent}-buttonContainer  genn-Baner-button-v5`}
-      >
-        <button className={`${classNameComponent}-buttonContainer-button`}>
-          {titleButton}
-        </button>
-      </div>
-    </div>
+      {isModalOpen && (
+        <MultiStepForm isModalOpen={openModal} closeModal={closeModal} />
+      )}
+    </>
   );
 }
 export default TextComponentbottom;

@@ -351,14 +351,14 @@ function CommentsModal(reviews) {
             <div className="genn-Model-slider-overlay">
               <Swiper
                 onSwiper={setSwiperInstance}
-                slidesPerView={5}
+                slidesPerView={6}
                 spaceBetween={30}
                 centeredSlides={true}
                 loop
                 breakpoints={{
-                  1920: { slidesPerView: 5 },
-                  1440: { slidesPerView: 4.3, loop: true },
-                  1200: { slidesPerView: 4.3, spaceBetween: 11, loop: true },
+                  1920: { slidesPerView: 6 },
+                  1440: { slidesPerView: 5.3, loop: true },
+                  1200: { slidesPerView: 5.3, spaceBetween: 11, loop: true },
                   700: {
                     slidesPerView: 3,
                     loop: true,

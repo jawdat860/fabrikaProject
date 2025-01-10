@@ -181,7 +181,7 @@ function CardVideoComponent() {
               <img src={nextImage} alt="Previous" />
             </div>
             <div className="CardVideoComponent-next">
-              <img src={nextImage} alt="Next" />
+              <img src={nextImage} alt="Next"/>
             </div>
           </div>
         </div>
