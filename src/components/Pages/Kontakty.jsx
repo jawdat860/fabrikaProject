@@ -140,7 +140,7 @@ function Kontakty() {
 
   return (
     <div id="contact" className="bg-[#EEECEA]  text-gray-800">
-      <div className="bg-white flex flex-col justify-end h-[937px] md:h-[1047px] relative">
+      <div className="bg-white flex flex-col overflow-hidden justify-end h-[937px] md:h-[1047px] relative">
         <div className="absolute top-0 md:w-full aspect-[1353/962.12]  min-h-[627px]  ">
           <img
             className=" absolute inset-0   md:left-0  object-cover "
