@@ -14,6 +14,8 @@ import video3 from "../../assets/images/bg-video/GarderobnyeN3.mp4";
 import { apiUrl } from "../../config";
 import CardVideoComponent from "../Module/GarderobnyeModel/CardVideoComponent";
 import LoadingComponent from "../Module/LoadingComponent/LoadingComponent";
+import Perfectlayout from "./ShkafComponents/Perfectlayout";
+import "./GarderobnyeComponent/GarderobnyePerfectLayout.css";
 function Garderobnye() {
   const [kitchenData, setKitchenData] = useState(null);
 
@@ -72,6 +74,24 @@ function Garderobnye() {
       </div>
       <div className="genn-SliderImg genn-shkaf-img Prikhozhie ">
         <ShkafGategory categorySlide={data.category} />
+      </div>
+      <div className="genn-Garderobnye-BannerText">
+        <Perfectlayout
+          video={video3}
+          title={"Идеальное пространство"}
+          titleTextComponent={"Индивидуальный стиль с гардеробной на заказ"}
+          desTextComponent={
+            <>
+              Гардеробная, созданная по индивидуальным размерам, позволит вам
+              контролировать <br /> и адаптировать пространство под любое
+              настроение и событие. Делайте выбор легко <br /> и с
+              удовольствием!
+            </>
+          }
+        />
+        <div className="genn-Garderobnye-BannerText-des-ButtonContainer">
+          <button className="genn-Baner-button-v2">Рассчитать стоимость</button>
+        </div>
       </div>
       <CardVideoComponent />
       <div id="genn-IconsBox" className="genn-IconsBox genn-kitchen-IconsBox">

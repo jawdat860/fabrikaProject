@@ -8,7 +8,6 @@ import SliderBaner from "../SliderBaner/SliderBaner";
 // import TextComponentbottom from "../Module/Text/TextComponentKitchen";
 import "./KitchenComponents/SliderBanner/SliderBanner.css";
 import KitchenGategory from "./KitchenComponents/KitchenGategory/KitchenGategory";
-
 import IconsBox from "../IconsBox/IconsBox";
 import CommentsModal from "../CommentsModal/CommentsModal";
 import TwoButtonV2 from "../TwoButtonV2/TwoButtonV2";

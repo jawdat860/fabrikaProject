@@ -27,9 +27,7 @@
 .genn-CardVideoComponent-CardsContainer {
     overflow: hidden;
 }
-.genn-CardVideoComponent-imageCard.mobile{
-    display: none;
-}
+
 .genn-cardVideo-main-1 {
     width: 25%;
 }
@@ -162,7 +160,22 @@
     padding-bottom: 18px;
     padding-top: 40px;
 }
+.genn-CardVideoComponent {
+    flex-wrap: wrap;
+    padding: 50px 54px 50px 54px;
+}
 
+.genn-CardVideoComponent-imageCard {
+    width: 100%;
+}
+
+.genn-cardVideo-main-1 {
+    width: 52%;
+}
+
+.genn-cardVideo-main-2 {
+    width: 41%;
+}
 
 @media (min-width: 1440px) and (max-width: 1919px) {
   

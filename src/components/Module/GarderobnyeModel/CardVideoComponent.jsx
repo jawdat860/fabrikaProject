@@ -76,7 +76,7 @@ function CardVideoComponent() {
   return (
     <div className="genn-CardVideoComponent">
       {/* for PC */}
-      <div className="genn-CardVideoComponent-imageCard pc">
+      {/* <div className="genn-CardVideoComponent-imageCard pc">
         <div className="genn-CardVideoComponent-imageCard-img">
           <img src={room} alt="room" />
         </div>
@@ -95,7 +95,7 @@ function CardVideoComponent() {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* end for Pc */}
 
       {/* for mobile */}
@@ -120,23 +120,27 @@ function CardVideoComponent() {
       {/* end for mobile */}
 
       {/* for pc videos */}
-      <div className="genn-cardVideo-main-1">
-        <CardVideo
-          videoBg={video2}
-          title={"Ваше пространство —ваш холст!"}
-          des={
-            "Создайте уникальную гардеробную. Каждый элемент — это кисть на вашем холсте. Выбирая дизайн, отделку и функциональные зоны, вы задаёте стиль своему пространству."
-          }
-        />
+      <div className="genn-cardVideo-main-container1">
+      <div className="genn-cardVideo-main-container">
+        <div className="genn-cardVideo-main-1">
+          <CardVideo
+            videoBg={video2}
+            title={"Ваше пространство —ваш холст!"}
+            des={
+              "Создайте уникальную гардеробную. Каждый элемент — это кисть на вашем холсте. Выбирая дизайн, отделку и функциональные зоны, вы задаёте стиль своему пространству."
+            }
+          />
+        </div>
+        <div className="genn-cardVideo-main-2">
+          <CardVideo
+            videoBg={video1}
+            title={"Функциональный мир порядка"}
+            des={
+              "Забудьте о беспорядке и хаосе! Индивидуальные размеры гардеробной помогут вам эффективно организовать вещи, создавая пространство, где каждая вещь будет на своем месте."
+            }
+          />
+        </div>
       </div>
-      <div className="genn-cardVideo-main-2">
-        <CardVideo
-          videoBg={video1}
-          title={"Функциональный мир порядка"}
-          des={
-            "Забудьте о беспорядке и хаосе! Индивидуальные размеры гардеробной помогут вам эффективно организовать вещи, создавая пространство, где каждая вещь будет на своем месте."
-          }
-        />
       </div>
       {/* end pc videos */}
 
@@ -181,7 +185,7 @@ function CardVideoComponent() {
               <img src={nextImage} alt="Previous" />
             </div>
             <div className="CardVideoComponent-next">
-              <img src={nextImage} alt="Next"/>
+              <img src={nextImage} alt="Next" />
             </div>
           </div>
         </div>

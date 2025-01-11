@@ -47,7 +47,7 @@ function KitchenGategory() {
       image: image1,
       alt: "Kitchen 1",
       text: "Подробнее",
-      linkOpen: "EmeraldKitchen",
+      linkOpen: "emerald-kitchen",
     },
     {
       image: image2,

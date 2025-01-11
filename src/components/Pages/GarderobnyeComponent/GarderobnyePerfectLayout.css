@@ -1,0 +1,220 @@
+.genn-Garderobnye-BannerText .genn-Perfectlayou-title {
+    padding-top: 77px;
+    padding-bottom: 50px;
+}
+
+.genn-Garderobnye-BannerText .genn-Perfectlayou-bottom-title {
+    color: #000;
+    text-align: center;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.genn-Garderobnye-BannerText .genn-Perfectlayou-bottom-des {
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.genn-Garderobnye-BannerText .genn-Garderobnye-BannerText-des-ButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .genn-Garderobnye-BannerText  .genn-Perfectlayou-title {
+        padding-top: 68px;
+        padding-bottom: 25px;
+    }
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-title {
+        font-size: 25px;
+    }
+    
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+    .genn-Garderobnye-BannerText .genn-Baner-video video{
+        min-height: 203px;
+    }
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-title {
+        text-align: center;
+        -webkit-text-stroke-width: 0.5;
+        -webkit-text-stroke-color: #000;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        background: linear-gradient(90deg, #675E5E -10.76%, #000 104.25%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: normal;
+    }
+    
+    .genn-Garderobnye-BannerText  .genn-Perfectlayou-title {
+        padding-top: 44px;
+        padding-bottom: 25px;
+    }
+    
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-bottom-title {
+        max-width: 180px;
+    }
+    
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-bottom {
+        padding-right: 38px;
+        padding-left: 38px;
+    }
+    
+    .genn-Garderobnye-BannerText .circular-button i {
+        font-size: 13px;
+    }
+    
+    
+    
+    .genn-Garderobnye-BannerText .banner {
+        right: 11px;
+        top: 9px;
+    }
+    
+    .genn-Garderobnye-BannerText .progress-ring__background {
+        r: 18;
+        cx: 25;
+        cy: 26;
+    }
+    
+    .genn-Garderobnye-BannerText .genn-Garderobnye-BannerText-des-ButtonContainer {
+        padding-bottom: 40px;
+    }    
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+    .genn-Perfectlayou-title div {
+        width: 208px;
+        text-align: center;
+        -webkit-text-stroke-width: 0.5;
+        -webkit-text-stroke-color: #000;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: linear-gradient(90deg, #675E5E -10.76%, #000 104.25%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-title {
+        padding-top: 57px;
+        padding-bottom: 25px;
+    }
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-bottom-des {
+        font-size: 13px;
+    }
+    .genn-Garderobnye-BannerText .genn-Baner-video video{
+        min-height: 203px;
+    }
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-bottom-title {
+        max-width: 180px;
+    }
+    
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-bottom {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+    
+    .genn-Garderobnye-BannerText .circular-button i {
+        font-size: 13px;
+    }
+    
+    
+    
+    .genn-Garderobnye-BannerText .banner {
+        right: 11px;
+        top: 9px;
+    }
+    
+    .genn-Garderobnye-BannerText .progress-ring__background {
+        r: 18;
+        cx: 25;
+        cy: 26;
+    }
+    
+    .genn-Garderobnye-BannerText .genn-Garderobnye-BannerText-des-ButtonContainer {
+        padding-bottom: 40px;
+    }
+}
+
+@media  (max-width: 374px) {
+    .genn-Perfectlayou-title div {
+        width: 208px;
+        text-align: center;
+        -webkit-text-stroke-width: 0.5;
+        -webkit-text-stroke-color: #000;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: linear-gradient(90deg, #675E5E -10.76%, #000 104.25%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-title {
+        padding-top: 57px;
+        padding-bottom: 25px;
+    }
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-bottom-des {
+        font-size: 13px;
+    }
+    .genn-Garderobnye-BannerText .genn-Baner-video video{
+        min-height: 203px;
+    }
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-bottom-title {
+        max-width: 180px;
+    }
+    
+    .genn-Garderobnye-BannerText .genn-Perfectlayou-bottom {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+    
+    .genn-Garderobnye-BannerText .circular-button i {
+        font-size: 13px;
+    }
+ 
+    .genn-Garderobnye-BannerText .banner {
+        right: 11px;
+        top: 9px;
+    }
+    
+    .genn-Garderobnye-BannerText .progress-ring__background {
+        r: 18;
+        cx: 25;
+        cy: 26;
+    }
+    
+    .genn-Garderobnye-BannerText .genn-Garderobnye-BannerText-des-ButtonContainer {
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+
+

@@ -50,7 +50,7 @@ function App() {
 
     fetchKitchens();
   }, []);
-
+  console.log(kitchenRoutes);
   return (
     <AppRoot>
       <Router>
@@ -72,8 +72,12 @@ function App() {
                   key={route.slug}
                   path={`/kitchen/${route.slug}`}
                   element={
-                    Component ? <Component /> : <div>Template Not Found</div>
-                  } 
+                    Component ? (
+                      <EmeraldKitchen />
+                    ) : (
+                      <div>Template Not Found</div>
+                    )
+                  }
                 />
               );
             })}
